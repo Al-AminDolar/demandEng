@@ -1,8 +1,8 @@
 export default function topbar() {
   return (
-    <div>
+    <div className="flex justify-between">
       <h3>Best industrial service</h3>
-      <div>
+      <div className="flex">
         <h3>Facebook</h3>
         <h3>Whats Up</h3>
         <h3>+880 1974818291</h3>
@@ -10,3 +10,4 @@ export default function topbar() {
     </div>
   )
 }
+ 

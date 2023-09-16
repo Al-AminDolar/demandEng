@@ -10,24 +10,24 @@ const Banner = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     slidesToShow: 1,
-    slidesToScroll: 1,
   };
   return (
-    <div className=" mx-auto ">
+    <div>
       <Slider {...settings}>
         <div className="">
-          <img src="/image/one.jpg" alt="" />
+          <img src="/public/image/banner-1-2.jpg" alt="" />
         </div>
         <div className="">
-          <img src="/public/image/three.jpg" alt="" />
+          <img src="/public/image/banner-1-3.jpg" alt="" />
         </div>
         <div className="">
-          <img src="/public/image/two.jpg" alt="" />
+          <img src="/public/image/banner-1-2.jpg" alt="" />
         </div>
         <div className="">
-          <img src="/public/image/four.jpg" alt="" />
+          <img src="/public/image/banner-1-3.jpg" alt="" />
         </div>
       </Slider>
+      <div className="carousel-text">Your single text here</div>
     </div>
   );
 };

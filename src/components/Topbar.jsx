@@ -14,24 +14,28 @@ export default function topbar() {
           <div className="flex items-center gap-4 text-white ">
             <BiPhoneCall className="h-9 w-9 text-white" />
             <div className="leading-5">
-              <span className="text-orange-600 text-sm">
+              <span className="text-orange-600 text-sm font-semibold">
                 Call us 9.00am-6.00pm
               </span>{" "}
-              <h3>01934559622</h3>
+              <h3 className="font-semibold">01934559622</h3>
             </div>
           </div>
           <div className="flex items-center gap-4 text-white">
             <BiTimeFive className="h-9 w-9 text-white" />
             <div className="leading-5">
-              <span className="text-orange-600 text-sm">Monday to Friday</span>{" "}
-              <h3>9:00am - 6:00pm</h3>
+              <span className="text-orange-600 text-sm font-semibold">
+                Monday to Friday
+              </span>{" "}
+              <h3 className="font-semibold">9:00am - 6:00pm</h3>
             </div>
           </div>
           <div className="flex items-center gap-4 text-white">
             <MdOutlineMarkEmailRead className="h-9 w-9 text-white" />
             <div className="leading-5">
-              <span className="text-orange-600 text-sm">E-mail us</span>{" "}
-              <h1>support@demandeng.com</h1>
+              <span className="text-orange-600 text-sm font-semibold">
+                E-mail us
+              </span>{" "}
+              <h1 className="font-semibold">support@demandeng.com</h1>
             </div>
           </div>
         </div>

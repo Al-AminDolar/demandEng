@@ -1,8 +1,14 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
 import Topbar from "./components/topbar";
 
 function App() {
-  return <Topbar />;
+  return (
+    <div>
+      <Topbar />
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;

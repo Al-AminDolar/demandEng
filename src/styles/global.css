@@ -30,5 +30,7 @@
   transform: translate(-50%, -50%);
   color: white; /* Set the text color */
   background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
-  padding: 10px;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 50px;
 }

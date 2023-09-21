@@ -16,16 +16,16 @@ const Banner = () => {
     <div>
       <Slider {...settings}>
         <div className="">
-          <img src="/public/image/banner-1-2.jpg" alt="" />
+          <img src="/image/banner-1-2.jpg" alt="" />
         </div>
         <div className="">
-          <img src="/public/image/banner-1-3.jpg" alt="" />
+          <img src="/image/banner-1-3.jpg" alt="" />
         </div>
         <div className="">
-          <img src="/public/image/banner-1-2.jpg" alt="" />
+          <img src="/image/banner-1-2.jpg" alt="" />
         </div>
         <div className="">
-          <img src="/public/image/banner-1-3.jpg" alt="" />
+          <img src="/image/banner-1-3.jpg" alt="" />
         </div>
       </Slider>
       <div className="carousel-text  text-center  flex flex-col ">

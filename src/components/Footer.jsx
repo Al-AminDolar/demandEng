@@ -12,8 +12,8 @@ const Footer = () => {
             <div className="px-3">
               <p className="text-justify text-lg">
                 Demand Engineering is a profetional industry solutions related
-                company with 3years plus industy field expereinced We always
-                ready for servie you our services.
+                company with 3years plus industy field expereinced . We are
+                always ready for servie you our services.
               </p>
               <div className="text-orange-500 font-semibold text-lg flex items-center gap-3 py-3">
                 <button>Read More</button>
@@ -32,23 +32,23 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="bg-blue-500">
-            <h1>Our Services</h1>
-            <ul>
-              <li>Air compressor</li>
-              <li>Dispenser</li>
-              <li>Dispser Parts</li>
-              <li>Spare Parts</li>
-              <li>Service</li>
+          <div className=" p-3 ">
+            <h1 className="text-2xl font-normal">Our Services</h1>
+            <ul className="text-lg py-4">
+              <li>- Air compressor</li>
+              <li>- Dispenser</li>
+              <li>- Dispser Parts</li>
+              <li>- Spare Parts</li>
+              <li>- Service</li>
             </ul>
           </div>
 
-          <div className="bg-purple-800">
-            <h1>Quick Links</h1>
-            <ul>
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Contact Us</li>
+          <div className="py-3">
+            <h1 className="text-2xl font-normal">Quick Links</h1>
+            <ul className="text-lg py-4">
+              <li>- Home</li>
+              <li>- About Us</li>
+              <li>- Contact Us</li>
             </ul>
           </div>
 

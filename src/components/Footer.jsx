@@ -2,7 +2,7 @@ import { FaFacebookSquare, FaWhatsappSquare } from "react-icons/fa";
 import { MdReadMore } from "react-icons/md";
 const Footer = () => {
   return (
-    <div className=" py-3 bg-slate-300">
+    <div className=" py-3 bg-slate-100">
       <div className="container mx-auto">
         <div className="grid grid-cols-6 gap-11 ">
           <div className="col-span-2 p-3 ">
@@ -35,31 +35,51 @@ const Footer = () => {
           <div className=" p-3 ">
             <h1 className="text-2xl font-normal">Our Services</h1>
             <ul className="text-lg py-4">
-              <li>- Air compressor</li>
-              <li>- Dispenser</li>
-              <li>- Dispser Parts</li>
-              <li>- Spare Parts</li>
-              <li>- Service</li>
+              <li>
+                <a href="#">- Air compressor</a>
+              </li>
+              <li>
+                <a href="#">- Dispenser</a>
+              </li>
+              <li>
+                <a href="#">- Dispser Parts</a>
+              </li>
+              <li>
+                <a href="#">- Spare Parts</a>
+              </li>
+              <li>
+                <a href="#">- Service</a>
+              </li>
             </ul>
           </div>
 
           <div className="py-3">
             <h1 className="text-2xl font-normal">Quick Links</h1>
             <ul className="text-lg py-4">
-              <li>- Home</li>
-              <li>- About Us</li>
-              <li>- Contact Us</li>
+              <li>
+                <a href="">- Home</a>
+              </li>
+              <li>
+                <a href="">- About Us</a>
+              </li>
+              <li>
+                <a href="">- Contact Us</a>
+              </li>
             </ul>
           </div>
 
-          <div className="bg-fuchsia-900 col-span-2">
-            <h1>Get In Touch</h1>
-            <h4>
-              LIBERTON ENGINEERING SOLUTION{" "}
-              <span>12/D Bashbari, Mohammadpur, Dhaka - 1207</span>
-            </h4>
-            <h4>+880 1320 393 000 / +880 1736 276 663</h4>
-            <h4>contact@libertoneng.com</h4>
+          <div className="p-3 col-span-2">
+            <h1 className="text-2xl font-normal">Get In Touch</h1>
+            <div className="text-lg py-4">
+              <h4>
+                Denand Engineering <br />
+                <span className="text-sm">
+                  12/D Bashbari, Mohammadpur, Dhaka - 1207
+                </span>
+              </h4>
+              <h4>+880 1320 393 000</h4>
+              <h4>contact@libertoneng.com</h4>
+            </div>
           </div>
         </div>
       </div>

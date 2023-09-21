@@ -1,8 +1,10 @@
 import { FaFacebookSquare, FaWhatsappSquare } from "react-icons/fa";
-import { MdReadMore } from "react-icons/md";
+import { FaMapLocationDot } from "react-icons/fa6";
+import { ImPhone } from "react-icons/im";
+import { MdMarkEmailUnread, MdReadMore } from "react-icons/md";
 const Footer = () => {
   return (
-    <div className=" py-3 bg-slate-100">
+    <div className=" py-3 bg-slate-50">
       <div className="container mx-auto">
         <div className="grid grid-cols-6 gap-11 ">
           <div className="col-span-2 p-3 ">
@@ -15,24 +17,29 @@ const Footer = () => {
                 company with 3years plus industy field expereinced . We are
                 always ready for servie you our services.
               </p>
-              <div className="text-orange-500 font-semibold text-lg flex items-center gap-3 py-3">
+              <div className="text-orange-600 font-semibold text-lg flex items-center gap-3 py-3">
                 <button>Read More</button>
                 <span className="text-2xl">
                   <MdReadMore />
                 </span>
               </div>
               <div className="social-icon flex gap-3 py-3">
-                <span className="text-3xl">
-                  <FaFacebookSquare />
-                </span>
-                <span className="text-3xl">
-                  <FaWhatsappSquare />
-                </span>
+                <a href="#">
+                  <span className="text-3xl text-blue-500">
+                    <FaFacebookSquare />
+                  </span>
+                </a>
+
+                <a href="#">
+                  <span className="text-3xl text-green-500">
+                    <FaWhatsappSquare />
+                  </span>
+                </a>
               </div>
             </div>
           </div>
 
-          <div className=" p-3 ">
+          <div className=" p-3  ">
             <h1 className="text-2xl font-normal">Our Services</h1>
             <ul className="text-lg py-4">
               <li>
@@ -72,13 +79,27 @@ const Footer = () => {
             <h1 className="text-2xl font-normal">Get In Touch</h1>
             <div className="text-lg py-4">
               <h4>
+                <span>
+                  <FaMapLocationDot />
+                </span>
                 Denand Engineering <br />
                 <span className="text-sm">
                   12/D Bashbari, Mohammadpur, Dhaka - 1207
                 </span>
               </h4>
-              <h4>+880 1320 393 000</h4>
-              <h4>contact@libertoneng.com</h4>
+              <h4>
+                <span>
+                  <ImPhone />
+                </span>{" "}
+                +880 1934559622
+              </h4>
+              <h4>
+                {" "}
+                <span>
+                  <MdMarkEmailUnread />
+                </span>{" "}
+                contact@demandeng.com
+              </h4>
             </div>
           </div>
         </div>

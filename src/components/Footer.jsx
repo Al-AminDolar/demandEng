@@ -1,7 +1,7 @@
 import { FaFacebookSquare, FaWhatsappSquare } from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { ImPhone } from "react-icons/im";
-import { MdMarkEmailUnread, MdReadMore } from "react-icons/md";
+import { MdEmail, MdReadMore } from "react-icons/md";
 const Footer = () => {
   return (
     <div className=" py-3 bg-slate-50">
@@ -78,26 +78,27 @@ const Footer = () => {
           <div className="p-3 col-span-2">
             <h1 className="text-2xl font-normal">Get In Touch</h1>
             <div className="text-lg py-4">
-              <h4>
-                <span>
+              <div className="flex  items-center gap-3 py-2">
+                <span className="text-blue-600 text-xl">
                   <FaMapLocationDot />
                 </span>
-                Denand Engineering <br />
-                <span className="text-sm">
-                  12/D Bashbari, Mohammadpur, Dhaka - 1207
-                </span>
-              </h4>
-              <h4>
-                <span>
+                <h4>
+                  Denand Engineering <br />
+                  <span className="text-sm">
+                    12/D Bashbari, Mohammadpur, Dhaka - 1207
+                  </span>
+                </h4>
+              </div>
+              <h4 className="flex items-center gap-3 py-2">
+                <span className="text-blue-600 text-xl">
                   <ImPhone />
                 </span>{" "}
                 +880 1934559622
               </h4>
-              <h4>
-                {" "}
-                <span>
-                  <MdMarkEmailUnread />
-                </span>{" "}
+              <h4 className="py-2 flex items-center gap-3">
+                <span className="text-blue-600 text-xl">
+                  <MdEmail />
+                </span>
                 contact@demandeng.com
               </h4>
             </div>

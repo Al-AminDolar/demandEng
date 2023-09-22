@@ -2,6 +2,7 @@ import { FaFacebookSquare, FaWhatsappSquare } from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { ImPhone } from "react-icons/im";
 import { MdEmail, MdReadMore } from "react-icons/md";
+import "../styles/global.css";
 const Footer = () => {
   return (
     <div className=" py-3 bg-slate-50">
@@ -17,7 +18,7 @@ const Footer = () => {
                 company with 3years plus industy field expereinced . We are
                 always ready for servie you our services.
               </p>
-              <div className="text-orange-600 font-semibold text-lg flex items-center gap-3 py-3">
+              <div className="footerBtn font-semibold text-lg flex items-center gap-3 py-3">
                 <button>Read More</button>
                 <span className="text-2xl">
                   <MdReadMore />

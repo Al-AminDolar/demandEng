@@ -1,12 +1,14 @@
+import { BsArrowRight } from "react-icons/bs";
 const About = () => {
   return (
     <div className="container mx-auto">
-      <div className="grid grid-cols-2">
-        <div className="left-top">
-          <h1>
-            Welcome to <span>Demand Engineering</span>
+      <div className="grid grid-cols-2 my-14 ">
+        <div className="left-top p-3">
+          <h1 className="text-4xl font-semibold mb-7">
+            Welcome to{" "}
+            <span className="text-[#fe5a0e]">Demand Engineering </span> __
           </h1>
-          <p>
+          <p className="text-lg text-justify pb-7">
             Demand Engineering is an organization of enthusiastic professionals
             who are experienced in the field of industrial engineering for
             several years. The organization is mainly concentrated on industrial
@@ -17,17 +19,15 @@ const About = () => {
             air compressor industry
           </p>
 
-          <ul>
-            <li>Our Work Growth</li>
-            <li>100 Employed</li>
-            <li>Our Employee Growth</li>
-            <li>Service Management</li>
-          </ul>
-
-          <button>Learn more</button>
+          <button className="text-white  bg-[#fe5a0e] px-7 py-3 flex items-center  gap-3   font-medium ">
+            Learn More{" "}
+            <span className="text-xl ">
+              <BsArrowRight />
+            </span>
+          </button>
         </div>
-        <div className="right-bottom">
-          <img src="/image/final.jpg" alt="" />
+        <div className="right-bottom p-3 ">
+          <img className="rounded-2xl" src="/image/final.jpg" alt="" />
         </div>
       </div>
     </div>

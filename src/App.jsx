@@ -7,6 +7,7 @@ import Feedback from "./components/Feedback";
 import Footer from "./components/Footer";
 import IdeaSection from "./components/IdeaSection";
 import Navbar from "./components/Navbar";
+import Quotes from "./components/Quotes";
 import Topbar from "./components/topbar";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Card />
       <Feedback />
       <IdeaSection />
+      <Quotes />
       <ExpertSection />
       <Footer />
     </div>

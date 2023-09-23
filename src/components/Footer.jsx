@@ -106,6 +106,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="border-t-[1px]  flex justify-center">
+        <h1 className="py-4 text-slate-500">
+          © Copyright Demand Engineering 2015. All right reserved.
+        </h1>
+      </div>
     </div>
   );
 };

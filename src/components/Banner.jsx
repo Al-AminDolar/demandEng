@@ -28,11 +28,18 @@ const Banner = () => {
           <img src={slide3} alt="" />
         </div>
       </Slider>
-      <div className="carousel-text  text-center  flex flex-col ">
-        <div className="font-semibold text-5xl">
-          <h1>We will provide the</h1>
+      <div className="carousel-text ">
+        <div className="font-semibold ">
+          <h1 className="text-5xl">Demand Engineering</h1>
+          <h4>
+            {" "}
+            <span className="text-2xl">Your Demand Our Service</span>
+          </h4>
+          <br />
+          <h1 className="text-2xl">We will provide the</h1>
           <h1>
-            best <span className="text-[#3ee438]">Industrial</span> support
+            best <span className="text-[#3ee438]">Industrial</span> machinery
+            support
           </h1>
         </div>
 

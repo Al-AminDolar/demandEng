@@ -1,3 +1,6 @@
+import image1 from "../images/feedback1.jpg";
+import image2 from "../images/feedback2.jpg";
+import image3 from "../images/feedback3.jpg";
 const Feedback = () => {
   return (
     <div className="bg-[url('/image/map-bg.png')] bg-[#0a1119] ">
@@ -17,7 +20,7 @@ const Feedback = () => {
             <div className="flex items-center gap-4">
               <img
                 className="rounded-full my-3 border-2 "
-                src="/public/images/testi-1-3.jpg"
+                src={image1}
                 alt=""
               />
               <div>
@@ -40,7 +43,7 @@ const Feedback = () => {
             <div className="flex items-center gap-4">
               <img
                 className="rounded-full my-3 border-2 "
-                src="/public/images/testi-1-1.jpg"
+                src={image2}
                 alt=""
               />
               <div>
@@ -63,7 +66,7 @@ const Feedback = () => {
             <div className="flex items-center gap-4">
               <img
                 className="rounded-full my-3 border-2 "
-                src="/public/images/testi-1-2.jpg"
+                src={image3}
                 alt=""
               />
               <div>

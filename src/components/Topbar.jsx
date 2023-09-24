@@ -17,7 +17,7 @@ export default function topbar() {
               <span className="text-orange-600 text-sm font-semibold">
                 Call us 9.00am-6.00pm
               </span>{" "}
-              <h3 className="font-semibold">01934559622</h3>
+              <h3 className="font-semibold">01325-435437</h3>
             </div>
           </div>
           <div className="flex items-center gap-4 text-white">

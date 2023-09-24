@@ -2,7 +2,9 @@ import { FaFacebookSquare, FaWhatsappSquare } from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { ImPhone } from "react-icons/im";
 import { MdEmail, MdReadMore } from "react-icons/md";
+import logo from "../images/logo.png";
 import "../styles/global.css";
+
 const Footer = () => {
   return (
     <div className=" py-3 bg-slate-50">
@@ -10,11 +12,7 @@ const Footer = () => {
         <div className="grid grid-cols-6 gap-11 ">
           <div className="col-span-2 p-3 ">
             <div>
-              <img
-                className="w-[150px] py-3"
-                src="/public/images/Logo.png"
-                alt=""
-              />
+              <img className="w-[150px] py-3" src={logo} alt="" />
             </div>
             <div className="px-3">
               <p className="text-justify text-lg">
@@ -90,7 +88,8 @@ const Footer = () => {
                 <h4>
                   Denand Engineering <br />
                   <span className="text-sm">
-                    12/D Bashbari, Mohammadpur, Dhaka - 1207
+                    House #64, Road #07,Shekertek <br /> Mohammadpur, Dhaka -
+                    1207
                   </span>
                 </h4>
               </div>
@@ -98,7 +97,7 @@ const Footer = () => {
                 <span className="text-blue-600 text-xl">
                   <ImPhone />
                 </span>{" "}
-                +880 1934559622
+                +880 01325-435437
               </h4>
               <h4 className="py-2 flex items-center gap-3">
                 <span className="text-blue-600 text-xl">

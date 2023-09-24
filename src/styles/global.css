@@ -30,14 +30,10 @@
 
 .carousel-text {
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 30%;
   transform: translate(-50%, -50%);
   color: white; /* Set the text color */
-
-  padding: 30px;
-  border-radius: 20px;
-  margin-top: 50px;
 }
 
 /* Adjust styles for smaller screens (e.g., mobile devices) */

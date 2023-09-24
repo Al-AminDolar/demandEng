@@ -11,20 +11,19 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="p-5 bg-white shadow-md md:flex md:items-center md:justify-between">
+    <nav className="p-5 bg-white shadow-md md:flex md:items-center md:justify-between ">
       <div className="flex justify-between items-center w-full max-w-screen-xl mx-auto">
         <span className="text-2xl font-[Poppins] cursor-pointer">
           <img className="h-10 inline" src={log} alt="Tailwind Logo" />
         </span>
 
-        <span
-          className="text-3xl cursor-pointer md:hidden block"
-          onClick={handleMenuToggle}
-        >
-          <ion-icon name={menuName}></ion-icon>
-        </span>
-
         <div>
+          <span
+            className="text-3xl cursor-pointer md:hidden block"
+            onClick={handleMenuToggle}
+          >
+            <ion-icon name={menuName}></ion-icon>
+          </span>
           <ul
             className={`md:flex md:items-center md:flex-grow ${
               menuOpen ? "block" : "hidden"

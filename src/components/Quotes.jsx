@@ -32,7 +32,7 @@ const Quotes = () => {
   ];
   return (
     <div className="container mx-auto">
-      <div className="grid grid-cols-5 gap-10">
+      <div className="grid grid-cols-5 gap-7">
         <div className="col-span-3  p-8 ">
           <h1 className="text-4xl font-semibold py-4">
             Learn more from our Faq__
@@ -51,7 +51,7 @@ const Quotes = () => {
             />
           </div>
         </div>
-        <div className="col-span-2 ">
+        <div className="col-span-2 p-8">
           <div className="bg-gray-900 p-8">
             <h1 className="text-2xl font-semibold text-white  pb-3">
               Request a <span>Quote</span> __

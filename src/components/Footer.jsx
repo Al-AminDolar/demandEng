@@ -7,7 +7,7 @@ import "../styles/global.css";
 
 const Footer = () => {
   return (
-    <div className=" py-3 bg-slate-50">
+    <div className=" pt-3 bg-slate-100">
       <div className="container mx-auto">
         <div className="grid grid-cols-6 gap-11 ">
           <div className="col-span-2 p-3 ">
@@ -109,8 +109,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border-t-[1px]  flex justify-center">
-        <h1 className="py-4 text-slate-500">
+      <div className="border-t-[1px] bg-slate-200  flex justify-center p-4">
+        <h1 className=" text-slate-600">
           © Copyright Demand Engineering 2015. All right reserved.
         </h1>
       </div>

@@ -40,6 +40,8 @@
   margin-top: 50px;
 }
 
+/* Adjust styles for smaller screens (e.g., mobile devices) */
+
 .footerBtn {
   color: orangered;
 }

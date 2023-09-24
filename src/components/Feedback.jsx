@@ -17,7 +17,7 @@ const Feedback = () => {
             <div className="flex items-center gap-4">
               <img
                 className="rounded-full my-3 border-2 "
-                src="/image/testi-1-3.jpg"
+                src="/public/images/testi-1-3.jpg"
                 alt=""
               />
               <div>
@@ -40,7 +40,7 @@ const Feedback = () => {
             <div className="flex items-center gap-4">
               <img
                 className="rounded-full my-3 border-2 "
-                src="/image/testi-1-1.jpg"
+                src="/public/images/testi-1-1.jpg"
                 alt=""
               />
               <div>
@@ -63,7 +63,7 @@ const Feedback = () => {
             <div className="flex items-center gap-4">
               <img
                 className="rounded-full my-3 border-2 "
-                src="/image/testi-1-2.jpg"
+                src="/public/images/testi-1-2.jpg"
                 alt=""
               />
               <div>

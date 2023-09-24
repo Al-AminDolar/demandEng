@@ -10,7 +10,11 @@ const Footer = () => {
         <div className="grid grid-cols-6 gap-11 ">
           <div className="col-span-2 p-3 ">
             <div>
-              <img className="w-[150px] py-3" src="/image/Logo.png" alt="" />
+              <img
+                className="w-[150px] py-3"
+                src="/public/images/Logo.png"
+                alt=""
+              />
             </div>
             <div className="px-3">
               <p className="text-justify text-lg">

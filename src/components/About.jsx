@@ -1,4 +1,5 @@
 import { BsArrowRight } from "react-icons/bs";
+import image from "../images/final.jpg";
 const About = () => {
   return (
     <div className="container mx-auto">
@@ -27,7 +28,7 @@ const About = () => {
           </button>
         </div>
         <div className="right-bottom p-3 ">
-          <img className="rounded-2xl" src="/image/final.jpg" alt="" />
+          <img className="rounded-2xl" src={image} alt="" />
         </div>
       </div>
     </div>

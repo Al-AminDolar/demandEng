@@ -1,5 +1,6 @@
 import { Collapse } from "antd";
 import { BiSolidRightArrowCircle } from "react-icons/bi";
+import "../styles/global.css";
 const Quotes = () => {
   const text = (
     <p
@@ -7,25 +8,25 @@ const Quotes = () => {
         paddingLeft: 24,
       }}
     >
-      A dog is a type of domesticated animal. Known for its loyalty and
-      faithfulness, it can be found as a welcome guest in many households across
-      the world.
+      Many of our SELC registered employees are requested as main preferred
+      Guilds were associations of artisans and Merchant that oversaw the main
+      production and distribution of a particular good.
     </p>
   );
   const items = [
     {
       key: "1",
-      label: "This is panel header 1",
+      label: "How to process the funtion for consulting?",
       children: text,
     },
     {
       key: "2",
-      label: "This is panel header 2",
+      label: "Where should I incorporate my business?",
       children: text,
     },
     {
       key: "3",
-      label: "This is panel header 3",
+      label: "How much should I capitalize with at the beginning?",
       children: text,
     },
   ];
@@ -36,7 +37,7 @@ const Quotes = () => {
           <h1 className="text-4xl font-semibold py-4">
             Learn more from our Faq__
           </h1>
-          <p className="text-lg">
+          <p className="  font-medium">
             You will find yourself working in a true partnership that results in
             an incredible experience, and an end product that is the best.
           </p>
@@ -55,7 +56,7 @@ const Quotes = () => {
             <h1 className="text-2xl font-semibold text-white  pb-3">
               Request a <span>Quote</span> __
             </h1>
-            <p className="text-white font-normal mb-3">
+            <p className="text-white font-medium  mb-3 ">
               {" "}
               Fill all information details to consult with us to get sevices
               from us

@@ -43,3 +43,15 @@
 .footerBtn {
   color: orangered;
 }
+
+.ant-collapse-header-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: purple;
+}
+
+.pcard img {
+  width: 300px;
+  height: 250px;
+  margin: auto;
+}

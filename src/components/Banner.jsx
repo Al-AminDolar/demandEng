@@ -2,10 +2,13 @@ import { BsArrowRight } from "react-icons/bs";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+import slide1 from "../images/slide1.jpg";
+import slide2 from "../images/slide2.jpg";
+import slide3 from "../images/slide3.jpg";
 import "../styles/global.css";
 const Banner = () => {
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 2000,
     autoplay: true,
@@ -16,16 +19,13 @@ const Banner = () => {
     <div>
       <Slider {...settings}>
         <div className="">
-          <img src="/image/banner-1-2.jpg" alt="" />
+          <img src={slide1} alt="" />
         </div>
         <div className="">
-          <img src="/image/banner-1-3.jpg" alt="" />
+          <img src={slide2} alt="" />
         </div>
         <div className="">
-          <img src="/image/banner-1-2.jpg" alt="" />
-        </div>
-        <div className="">
-          <img src="/image/banner-1-3.jpg" alt="" />
+          <img src={slide3} alt="" />
         </div>
       </Slider>
       <div className="carousel-text  text-center  flex flex-col ">

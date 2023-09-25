@@ -1,16 +1,36 @@
 import image1 from "../images/feedback1.jpg";
 import image2 from "../images/feedback2.jpg";
 import image3 from "../images/feedback3.jpg";
+
 const Feedback = () => {
   return (
-    <div className="bg-[url('/image/map-bg.png')] bg-[#0a1119] ">
-      <div className="container mx-auto flex flex-col items-center py-16 ">
-        <h1 className="text-white text-5xl font-semibold mb-7">
-          What People Are Saying
-        </h1>
+    <div className="bg-[url('../images/map-bg.png')] bg-cover bg-center  bg-[#222222] ">
+      <h1 className="text-white text-3xl font-semibold text-center pt-6">
+        What People Are Saying
+      </h1>
+      <div className="container mx-auto  items-center ">
+        <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 ">
+          <div className="border p-8 rounded-md m-8">
+            <p className="text-justify font-medium text-white">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+              eaque temporibus atque molestias cupiditate a aspernatur earum
+              nemo maxime laboriosam commodi eveniet fugiat, eos suscipit? Dolor
+              quasi id perspiciatis quo.
+            </p>
+            <div className="flex items-center gap-4">
+              <img className="rounded-full my-3 border-2" src={image1} alt="" />
+              <div>
+                <h4 className="text-white text-2xl font-semibold">
+                  Chrisnao Rolo
+                </h4>
+                <span className="text-[#f75511] font-medium">
+                  Founder ArchC
+                </span>
+              </div>
+            </div>
+          </div>
 
-        <div className="cardSection my-7 flex justify-center gap-5">
-          <div className="card  w-[300px] h-auto p-3 border rounded-lg">
+          <div className="border p-8 rounded-md m-8">
             <p className="text-justify font-medium text-white">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
               eaque temporibus atque molestias cupiditate a aspernatur earum
@@ -18,11 +38,7 @@ const Feedback = () => {
               quasi id perspiciatis quo.
             </p>
             <div className="flex items-center gap-4">
-              <img
-                className="rounded-full my-3 border-2 "
-                src={image1}
-                alt=""
-              />
+              <img className="rounded-full my-3 border-2" src={image2} alt="" />
               <div>
                 <h4 className="text-white text-2xl font-semibold">
                   Chrisnao Rolo
@@ -33,7 +49,8 @@ const Feedback = () => {
               </div>
             </div>
           </div>
-          <div className="card  w-[300px] h-auto p-3 border rounded-lg">
+
+          <div className="border p-8 rounded-md m-8">
             <p className="text-justify font-medium text-white">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
               eaque temporibus atque molestias cupiditate a aspernatur earum
@@ -41,34 +58,7 @@ const Feedback = () => {
               quasi id perspiciatis quo.
             </p>
             <div className="flex items-center gap-4">
-              <img
-                className="rounded-full my-3 border-2 "
-                src={image2}
-                alt=""
-              />
-              <div>
-                <h4 className="text-white text-2xl font-semibold">
-                  Chrisnao Rolo
-                </h4>
-                <span className="text-[#f75511] font-medium">
-                  Founder ArchC
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="card  w-[300px] h-auto p-3 border rounded-lg">
-            <p className="text-justify font-medium text-white">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
-              eaque temporibus atque molestias cupiditate a aspernatur earum
-              nemo maxime laboriosam commodi eveniet fugiat, eos suscipit? Dolor
-              quasi id perspiciatis quo.
-            </p>
-            <div className="flex items-center gap-4">
-              <img
-                className="rounded-full my-3 border-2 "
-                src={image3}
-                alt=""
-              />
+              <img className="rounded-full my-3 border-2" src={image3} alt="" />
               <div>
                 <h4 className="text-white text-2xl font-semibold">
                   Chrisnao Rolo

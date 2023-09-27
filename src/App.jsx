@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./components/About";
 import Banner from "./components/Banner";
@@ -8,12 +9,13 @@ import Footer from "./components/Footer";
 import IdeaSection from "./components/IdeaSection";
 import Navbar from "./components/Navbar";
 import Quotes from "./components/Quotes";
-import Topbar from "./components/topbar";
 
 function App() {
   return (
     <div>
-      <Topbar />
+      <Routes>
+        <Route path="/" element={<Footer />} />
+      </Routes>
       <Navbar />
       <Banner />
       <About />
@@ -22,7 +24,6 @@ function App() {
       <IdeaSection />
       <Quotes />
       <ExpertSection />
-      <Footer />
     </div>
   );
 }

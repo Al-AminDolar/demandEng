@@ -11,14 +11,12 @@ const About = () => {
             <span className="text-[#fe5a0e]">Demand Engineering </span> __
           </h1>
           <p className="text-lg lg:text-xl text-justify pb-4">
-            Demand Engineering is an organization of enthusiastic professionals
-            who are experienced in the field of industrial engineering for
-            several years. The organization is mainly concentrated on industrial
-            air solutions. The company Liberton Engineering Solution is in this
-            business since 2015 and it has gained recognition for the industry
-            leading products and after sales services. Today Liberton
-            Engineering solution is one of the most reliable companies in the
-            air compressor industry
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas,
+            minima iusto libero alias, expedita voluptatibus officia eveniet
+            quisquam itaque a repellat aliquid hic adipisci fugiat labore
+            deleniti, tenetur nihil? Repellat consequatur, enim quae blanditiis
+            quisquam tempore? Ad sapiente, blanditiis dolores, labore iste
+            architecto minima ea reiciendis sed, nostrum error accusantium!
           </p>
 
           <button className="text-white bg-[#fe5a0e] px-6 py-2 flex items-center gap-3 font-medium">

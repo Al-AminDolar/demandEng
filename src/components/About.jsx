@@ -11,12 +11,16 @@ const About = () => {
             <span className="text-[#fe5a0e]">Demand Engineering </span> __
           </h1>
           <p className="text-lg lg:text-xl text-justify pb-4">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas,
-            minima iusto libero alias, expedita voluptatibus officia eveniet
-            quisquam itaque a repellat aliquid hic adipisci fugiat labore
-            deleniti, tenetur nihil? Repellat consequatur, enim quae blanditiis
-            quisquam tempore? Ad sapiente, blanditiis dolores, labore iste
-            architecto minima ea reiciendis sed, nostrum error accusantium!
+            Welcome to our website, our company Demand Engineering was
+            established on 2020. Demand Engineering is based in Bangladesh and
+            grew up as a business conglomerate. Over the years Demand
+            Engineering has earned an enviable reputation by consistently
+            serving the clients with premium quality products and services at
+            the mos competitive price. Our team of qualified Engineers located
+            across the country is fully capable handle any issues regarding
+            supply and after sale support of industrial Air compressor, any
+            brand Compressor Spare Parts, BBT, Sub-station, Online IPS, Fire
+            fighting system.
           </p>
 
           <button className="text-white bg-[#fe5a0e] px-6 py-2 flex items-center gap-3 font-medium">

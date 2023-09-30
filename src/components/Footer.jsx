@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="bg-[#262626] text-white ">
       <div className="flex justify-center container mx-auto ">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-5 pb-20 pt-10">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-5 pb-20 pt-10 px-4">
           <div className="About p-3">
             <h1 className="text-xl font-medium pb-4">About Us</h1>
             <p className="text-base leading-relaxed">
@@ -72,13 +72,16 @@ const Footer = () => {
                 <NavLink>Home</NavLink>
               </li>
               <li>
+                <NavLink>Services</NavLink>
+              </li>
+              <li>
+                <NavLink>Shop</NavLink>
+              </li>
+              <li>
                 <NavLink>About</NavLink>
               </li>
               <li>
                 <NavLink>Contacts</NavLink>
-              </li>
-              <li>
-                <NavLink>Shop</NavLink>
               </li>
             </ul>
           </div>

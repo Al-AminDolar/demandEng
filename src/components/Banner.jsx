@@ -50,7 +50,7 @@ const Banner = () => {
   ];
 
   return (
-    <div className="mx-auto max-w-screen-3xl relative -z-10 mt-16">
+    <div className="mx-auto max-w-screen-3xl relative  mt-16">
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <div key={index} className="w-full relative">

@@ -26,7 +26,7 @@ const Navbar = () => {
           </span>
           <ul
             className={`md:flex md:items-center md:flex-grow ${
-              menuOpen ? "block " : "hidden"
+              menuOpen ? " block" : "hidden "
             }`}
           >
             <li className="mx-4 my-2 md:my-0">

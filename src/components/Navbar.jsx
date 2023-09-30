@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="p-3 text-xl font-medium bg-white shadow-md md:flex md:items-center md:justify-between ">
+    <nav className="fixed top-0 left-0 right-0 p-3 text-xl font-medium bg-white shadow-md md:flex md:items-center md:justify-between ">
       <div className="flex justify-between items-center w-full max-w-screen-xl mx-auto">
         <span className="text-2xl font-[Poppins] cursor-pointer">
           <img className="h-10 inline" src={log} alt="Tailwind Logo" />

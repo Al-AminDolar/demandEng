@@ -1,14 +1,14 @@
 import { BsArrowRight } from "react-icons/bs";
 import compressor from "../images/compressor.png";
 import oil from "../images/compressoroil.jpg";
-import spare from "../images/spareParts.png";
+import spare from "../images/spareParts.jpg";
 import "../styles/global.css";
 
 const Card = () => {
   return (
-    <div className="bg-slate-100 min-h-screen ">
+    <div className="bg-slate-100 pt-10 pb-20 ">
       <h1 className="text-5xl pt-3  font-medium text-center">
-        Our <span className="text-purple-700">Service</span>
+        Our <span className="text-purple-700">Services</span>
       </h1>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 p-7">
         <div className="card text-center">

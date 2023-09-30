@@ -40,7 +40,7 @@ const Quotes = () => {
             You will find yourself working in a true partnership that results in
             an incredible experience, and an end product that is the best.
           </p>
-          <div className="my-8">
+          <div className="my-8 relative -z-10">
             <Collapse
               size="large"
               className="bg-gray-100"

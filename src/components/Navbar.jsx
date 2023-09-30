@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 p-3 text-xl font-medium bg-white shadow-md md:flex md:items-center md:justify-between ">
+    <nav className="fixed top-0 left-0 right-0 z-10 p-3 text-xl font-medium bg-white shadow-md md:flex md:items-center md:justify-between ">
       <div className="flex justify-between items-center w-full max-w-screen-xl mx-auto">
         <span className="text-2xl font-[Poppins] cursor-pointer">
           <img className="h-10 inline" src={log} alt="Tailwind Logo" />
@@ -34,7 +34,7 @@ const Navbar = () => {
                 href="#"
                 className="text-base hover:text-orange-500 duration-500"
               >
-                HOME
+                Home
               </a>
             </li>
             <li className="mx-4 my-2 md:my-0">
@@ -42,7 +42,7 @@ const Navbar = () => {
                 href="#"
                 className="text-base hover:text-orange-500 duration-500"
               >
-                SERVICE
+                Service
               </a>
             </li>
             <li className="mx-4 my-2 md:my-0">
@@ -50,7 +50,7 @@ const Navbar = () => {
                 href="#"
                 className="text-base hover:text-orange-500 duration-500"
               >
-                ABOUT
+                Shop
               </a>
             </li>
             <li className="mx-4 my-2 md:my-0">
@@ -58,14 +58,16 @@ const Navbar = () => {
                 href="#"
                 className="text-base hover:text-orange-500 duration-500"
               >
-                CONTACT
+                About
               </a>
             </li>
             <li className="mx-4 my-2 md:my-0">
               <a
                 href="#"
-                className="text-base hover:text-cyan-500 duration-500"
-              ></a>
+                className="text-base hover:text-orange-500 duration-500"
+              >
+                Contact
+              </a>
             </li>
           </ul>
         </div>

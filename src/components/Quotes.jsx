@@ -30,7 +30,7 @@ const Quotes = () => {
   ];
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto ">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
         <div className="p-8">
           <h1 className="text-2xl md:text-4xl font-semibold py-4">
@@ -40,10 +40,10 @@ const Quotes = () => {
             You will find yourself working in a true partnership that results in
             an incredible experience, and an end product that is the best.
           </p>
-          <div className="my-8 relative -z-10">
+          <div className="my-8  ">
             <Collapse
               size="large"
-              className="bg-gray-100"
+              className="bg-gray-100  "
               items={items}
               bordered={false}
               defaultActiveKey={["1"]}

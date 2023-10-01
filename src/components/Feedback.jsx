@@ -1,6 +1,4 @@
 import image1 from "../images/feedback1.jpg";
-import image2 from "../images/feedback2.jpg";
-import image3 from "../images/feedback3.jpg";
 
 const Feedback = () => {
   return (
@@ -10,6 +8,7 @@ const Feedback = () => {
       </h1>
       <div className="container mx-auto  items-center ">
         <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 ">
+          {/* Feedback One */}
           <div className="border p-8 rounded-md m-8">
             <p className="text-justify font-medium text-white">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
@@ -29,8 +28,8 @@ const Feedback = () => {
               </div>
             </div>
           </div>
-
-          <div className="border p-8 rounded-md m-8">
+          {/* Feedback Two */}
+          {/* <div className="border p-8 rounded-md m-8">
             <p className="text-justify font-medium text-white">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
               eaque temporibus atque molestias cupiditate a aspernatur earum
@@ -48,9 +47,9 @@ const Feedback = () => {
                 </span>
               </div>
             </div>
-          </div>
-
-          <div className="border p-8 rounded-md m-8">
+          </div> */}
+          {/* Feedback Three */}
+          {/* <div className="border p-8 rounded-md m-8">
             <p className="text-justify font-medium text-white">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
               eaque temporibus atque molestias cupiditate a aspernatur earum
@@ -68,7 +67,7 @@ const Feedback = () => {
                 </span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

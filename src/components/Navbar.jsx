@@ -2,11 +2,11 @@ import { useState } from "react";
 import log from "../images/logo.png";
 const Navbar = () => {
   let Links = [
-    { name: "HOME", link: "/" },
-    { name: "SERVICE", link: "/" },
-    { name: "ABOUT", link: "/" },
-    { name: "BLOG'S", link: "/" },
-    { name: "CONTACT", link: "/" },
+    { name: "Home", link: "/" },
+    { name: "Service", link: "/" },
+    { name: "About", link: "/" },
+    { name: "Shop", link: "/" },
+    { name: "Contact", link: "/" },
   ];
   let [open, setOpen] = useState(false);
   return (

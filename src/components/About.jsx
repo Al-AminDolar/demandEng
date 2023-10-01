@@ -4,13 +4,13 @@ import image from "../images/final.jpg";
 const About = () => {
   return (
     <div className="container mx-auto">
-      <div className="grid grid-cols-1 pb-3 my-1 lg:grid-cols-2 my-14 gap-1">
-        <div className="left-top p-3">
-          <h1 className="text-4xl lg:text-5xl font-semibold mb-7">
+      <div className="grid grid-cols-1 pb-3 my-1 lg:grid-cols-2  gap-1">
+        <div className="left-top p-4">
+          <h1 className="text-2xl lg:text-5xl font-semibold mb-4">
             Welcome to <br />
             <span className="text-[#fe5a0e]">Demand Engineering </span> __
           </h1>
-          <p className="text-lg lg:text-xl text-justify pb-4">
+          <p className="text lg:text-xl text-justify pb-4">
             Welcome to our website, our company Demand Engineering was
             established on 2020. Demand Engineering is based in Bangladesh and
             grew up as a business conglomerate. Over the years Demand
@@ -23,7 +23,7 @@ const About = () => {
             fighting system.
           </p>
 
-          <button className="text-white bg-[#fe5a0e] px-6 py-2 flex items-center gap-3 font-medium">
+          <button className="text-white bg-[#fe5a0e] px-4 py-1 flex items-center gap-3 font-medium">
             Learn More{" "}
             <span className="text-xl">
               <BsArrowRight />

@@ -1,11 +1,12 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import log from "../images/logo.png";
 const Navbar = () => {
   let Links = [
     { name: "Home", link: "/" },
     { name: "Service", link: "/" },
     { name: "About", link: "/" },
-    { name: "Shop", link: "/" },
+    { name: "Shop", link: "/shop" },
     { name: "Contact", link: "/" },
   ];
   let [open, setOpen] = useState(false);
@@ -35,12 +36,12 @@ const Navbar = () => {
         >
           {Links.map((link) => (
             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
-              <a
-                href={link.link}
-                className="text-gray-800 hover:text-gray-400 duration-500"
+              <NavLink
+                className="text-gray-800 font-serif font-medium hover:text-purple-800 duration-500"
+                to={link.link}
               >
                 {link.name}
-              </a>
+              </NavLink>
             </li>
           ))}
         </ul>

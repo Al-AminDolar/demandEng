@@ -1,7 +1,8 @@
 import { Card } from "antd";
 const { Meta } = Card;
 
-const ShopCard = () => {
+const ShopCard = (product) => {
+  console.log(product.product.img);
   return (
     <div className="flex justify-center">
       <Card
@@ -9,14 +10,9 @@ const ShopCard = () => {
         style={{
           width: 240,
         }}
-        cover={
-          <img
-            alt="example"
-            src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-          />
-        }
+        cover={<img alt="example" src={product.product.img} />}
       >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        <Meta title={product.product.title} />
       </Card>
     </div>
   );

@@ -1,0 +1,415 @@
+{
+  "popularProducts": [
+    {
+      "_id": 1,
+      "img": "https://i.ibb.co/2Sr3Nx3/vapepens.png",
+      "title": "Vape Pens",
+      "searchKey": "vape-pens"
+    },
+    {
+      "_id": 2,
+      "img": "https://i.ibb.co/YtGYKRG/flower.png",
+      "title": "Flower",
+      "searchKey": "flower"
+    },
+    {
+      "_id": 3,
+      "img": "https://i.ibb.co/3BnR5vy/Concentrates.png",
+      "title": "Concentrates",
+      "searchKey": "concentrates"
+    },
+    {
+      "_id": 4,
+      "img": "https://i.ibb.co/V9CnTz5/Pre-roll.png",
+      "title": "Pre roll",
+      "searchKey": "pre-roll"
+    },
+    {
+      "_id": 5,
+      "img": "https://i.ibb.co/6DCyVLL/Cbd.png",
+      "title": "CBD",
+      "searchKey": "cbd"
+    },
+    {
+      "_id": 6,
+      "img": "https://i.ibb.co/CPMghCH/topicals.png",
+      "title": "Topicals",
+      "searchKey": "topicals"
+    },
+    {
+      "_id": 7,
+      "img": "https://i.ibb.co/V9CnTz5/Pre-roll.png",
+      "title": "Topicals",
+      "searchKey": "topicals"
+    },
+    {
+      "_id": 8,
+      "img": "https://i.ibb.co/YtGYKRG/flower.png",
+      "title": "Pre roll",
+      "searchKey": "pre-roll"
+    },
+    {
+      "_id": 9,
+      "img": "https://i.ibb.co/3BnR5vy/Concentrates.png",
+      "title": "CBD",
+      "searchKey": "cbd"
+    }
+  ],
+
+  "featuresProducts": [
+    {
+      "_id": 1,
+      "img": "https://i.ibb.co/s3Pntjz/1.png",
+      "title": "Bloom Classic Vape | Pineapple Express",
+      "brand_name": "BLOOM BRAND",
+      "rating": "46 (81)",
+      "price": "25.00",
+      "quantity": "5 ml",
+      "category": "CARTRIDGE"
+    },
+    {
+      "_id": 2,
+      "img": "https://i.ibb.co/S7m6S4h/2.png",
+      "title": "KAVIAR MOONROCKS",
+      "brand_name": "Kaviar",
+      "rating": "46 (81)",
+      "price": "20.00",
+      "quantity": "24 mi",
+      "category": "Flower"
+    },
+    {
+      "_id": 3,
+      "img": "https://i.ibb.co/q7HVXdj/3.png",
+      "title": "Camino Wild Berry Chill Gummies - 100mg",
+      "brand_name": "WYLD",
+      "rating": "46 (81)",
+      "price": "15.00",
+      "quantity": "7 mi",
+      "category": "GUMMIES"
+    },
+    {
+      "_id": 4,
+      "img": "https://i.ibb.co/vhXnH5M/4.png",
+      "title": "Camino Pineapple Habanero Uplifting",
+      "brand_name": "Kiva Confections",
+      "rating": "46 (81)",
+      "price": "14.99",
+      "quantity": "16 mi",
+      "category": "CARTRIDGE"
+    },
+    {
+      "_id": 5,
+      "img": "https://i.ibb.co/XsVNkrV/5.png",
+      "title": "Terra Bites - 100mg",
+      "brand_name": "Kiva Confections",
+      "rating": "46 (81)",
+      "price": "15.00",
+      "quantity": "15 mi",
+      "category": "CARTRIDGE"
+    },
+    {
+      "_id": 6,
+      "img": "https://i.ibb.co/S7m6S4h/2.png",
+      "title": "KAVIAR MOONROCKS",
+      "brand_name": "Kaviar",
+      "rating": "46 (81)",
+      "price": "20.00",
+      "quantity": "24 mi",
+      "category": "Flower"
+    },
+    {
+      "_id": 7,
+      "img": "https://i.ibb.co/q7HVXdj/3.png",
+      "title": "Camino Wild Berry Chill Gummies - 100mg",
+      "brand_name": "WYLD",
+      "rating": "46 (81)",
+      "price": "15.00",
+      "quantity": "7 mi",
+      "category": "GUMMIES"
+    },
+    {
+      "_id": 8,
+      "img": "https://i.ibb.co/vhXnH5M/4.png",
+      "title": "Camino Pineapple Habanero Uplifting",
+      "brand_name": "Kiva Confections",
+      "rating": "46 (81)",
+      "price": "14.99",
+      "quantity": "16 mi",
+      "category": "CARTRIDGE"
+    }
+  ],
+  "offerProducts": [
+    {
+      "_id": 1,
+      "offer": "Up to 30% off",
+      "name": "Flower",
+      "img": "https://i.ibb.co/NWsbKJH/card-Flower.png",
+      "details": "Lorem Ipsum is simply dummy text"
+    },
+    {
+      "_id": 2,
+      "offer": "Up to 30% off",
+      "name": "Pre-roll",
+      "img": "https://i.ibb.co/ThqnDZb/card-Joint.png",
+      "details": "Lorem Ipsum is simply dummy text"
+    },
+    {
+      "_id": 1,
+      "offer": "Up to 30% off",
+      "name": "Flower",
+      "img": "https://i.ibb.co/NWsbKJH/card-Flower.png",
+      "details": "Lorem Ipsum is simply dummy text"
+    },
+    {
+      "_id": 2,
+      "offer": "Up to 30% off",
+      "name": "Pre-roll",
+      "img": "https://i.ibb.co/ThqnDZb/card-Joint.png",
+      "details": "Lorem Ipsum is simply dummy text"
+    }
+  ],
+  "Products": [
+    {
+      "_id": 1,
+      "img": "https://i.ibb.co/fpv1Bzh/55681-kaviar-cones.jpg",
+      "title": "KAVIAR MOONROCKS SATIVA",
+      "brand_name": "Kaviar",
+      "rating": "5.0 (2)",
+      "price": "25.00",
+      "quantity": "6 mi",
+      "category": "Vape Pens"
+    },
+    {
+      "_id": 2,
+      "img": "https://i.ibb.co/fNGRszk/278686-Galaxy-PR-OG.jpg",
+      "title": "Citrus Gelato Cake",
+      "brand_name": "Heartland Farms",
+      "rating": "5.0 (15)",
+      "price": "35.00",
+      "quantity": "6 mi",
+      "category": "Vape Pens"
+    },
+    {
+      "_id": 3,
+      "img": "https://i.ibb.co/gZ3dDNt/302959-Grapensteinpost-Artboard-3.jpg",
+      "title": "Grapenstein",
+      "brand_name": "Private Reserve Gardens",
+      "rating": "4.3 (42)",
+      "price": "26.03",
+      "quantity": "6 mi",
+      "category": "Concentrates",
+      "thc": 83.34
+    },
+    {
+      "_id": 4,
+      "img": "https://i.ibb.co/nCYsQbN/1669417926-1667276784-1661839397-220210-ck-thedoggybagg-split-indoor.jpg",
+      "title": "GCookies - The Doggy Bagg",
+      "brand_name": "Private Reserve Gardens",
+      "rating": "4.3 (42)",
+      "price": "7.77",
+      "quantity": "7 mi",
+      "category": "Pre Rol"
+    },
+    {
+      "_id": 5,
+      "img": "https://i.ibb.co/fNGRszk/278686-Galaxy-PR-OG.jpg",
+      "title": "Original Galaxy Preroll-OK",
+      "brand_name": "Galaxy",
+      "rating": "5.0 (7)",
+      "price": "20.00",
+      "quantity": "1 mi",
+      "category": "Pre-Rol"
+    },
+    {
+      "_id": 6,
+      "img": "https://i.ibb.co/b1fmKTh/292295-IMG-5163.jpg",
+      "title": "Gelato Punch",
+      "brand_name": "New Moon Cultivation",
+      "rating": "5.0 (15)",
+      "price": "15.00",
+      "quantity": "7 mi",
+      "category": "Vape Pens"
+    },
+    {
+      "_id": 7,
+      "img": "https://i.ibb.co/zxhBrB7/1669418516-1667281830-1655851198-1652279526-1652159118-1651070373-1650999127-1586277873-cookies-gary.jpg",
+      "title": "Cookies - Gary Payton Cookies",
+      "brand_name": "Private Reserve Gardens",
+      "rating": "3.3 (4)",
+      "price": "40.00",
+      "quantity": "6 mi",
+      "category": "Topicals"
+    },
+    {
+      "_id": 8,
+      "img": "https://i.ibb.co/chm30D6/1050850-Zenoa-Blockberry-Super-Boof-1.jpg",
+      "title": "Superboof",
+      "brand_name": "PZenoa",
+      "rating": "4.3 (42)",
+      "price": "37.50",
+      "quantity": "2 mi",
+      "category": "Topicals"
+    },
+    {
+      "_id": 9,
+      "img": "https://i.ibb.co/2Zz4ySR/1647000258-banana-cake2-mobile.jpg",
+      "title": "Banana Cake #2 by Smokey Okies",
+      "brand_name": "Galaxy",
+      "rating": "5.0 (7)",
+      "price": "20.00",
+      "quantity": "6 mi",
+      "category": "Flower"
+    },
+    {
+      "_id": 10,
+      "img": "https://i.ibb.co/R9KMPJN/170526-highvoltagerolls-highvoltageroll-9392.jpg",
+      "title": "New Moon Cultivation",
+      "brand_name": "Galaxy",
+      "rating": "5.0 (7)",
+      "price": "15.00",
+      "quantity": "1 mi",
+      "category": "Vape Pens"
+    },
+    {
+      "_id": 11,
+      "img": "https://i.ibb.co/R9KMPJN/170526-highvoltagerolls-highvoltageroll-9392.jpg",
+      "title": "ICE CUBE'S GOOD DAY KUSH MOON ROCK",
+      "brand_name": "Private Reserve Gardens",
+      "rating": "3.3 (4)",
+      "price": "40.00",
+      "quantity": "7 mi",
+      "category": "CBD"
+    },
+    {
+      "_id": 12,
+      "img": "https://i.ibb.co/0cj3Xp3/338517-Zenoa-Heaven-Scent-4-copy.jpg",
+      "title": "Heaven Scent",
+      "brand_name": "Zenoa",
+      "rating": "3.3 (4)",
+      "price": "37.50",
+      "quantity": "2 mi",
+      "category": "Flower"
+    },
+    {
+      "_id": 13,
+      "img": "https://i.ibb.co/fpv1Bzh/55681-kaviar-cones.jpg",
+      "title": "KAVIAR MOONROCKS SATIVA",
+      "brand_name": "Kaviar",
+      "rating": "5.0 (2)",
+      "price": "25.00",
+      "quantity": "6 mi",
+      "category": "Flower"
+    },
+    {
+      "_id": 14,
+      "img": "https://i.ibb.co/fNGRszk/278686-Galaxy-PR-OG.jpg",
+      "title": "Citrus Gelato Cake",
+      "brand_name": "Heartland Farms",
+      "rating": "5.0 (15)",
+      "price": "35.00",
+      "quantity": "6 mi",
+      "category": "Flower"
+    },
+    {
+      "_id": 15,
+      "img": "https://i.ibb.co/gZ3dDNt/302959-Grapensteinpost-Artboard-3.jpg",
+      "title": "Grapenstein",
+      "brand_name": "Private Reserve Gardens",
+      "rating": "4.3 (42)",
+      "price": "26.03",
+      "quantity": "6 mi",
+      "category": "Flower",
+      "thc": 83.34
+    },
+    {
+      "_id": 16,
+      "img": "https://i.ibb.co/nCYsQbN/1669417926-1667276784-1661839397-220210-ck-thedoggybagg-split-indoor.jpg",
+      "title": "GCookies - The Doggy Bagg",
+      "brand_name": "Private Reserve Gardens",
+      "rating": "4.3 (42)",
+      "price": "7.77",
+      "quantity": "7 mi",
+      "category": "Concentrates"
+    },
+    {
+      "_id": 17,
+      "img": "https://i.ibb.co/fNGRszk/278686-Galaxy-PR-OG.jpg",
+      "title": "Original Galaxy Preroll-OK",
+      "brand_name": "Galaxy",
+      "rating": "5.0 (7)",
+      "price": "20.00",
+      "quantity": "1 mi",
+      "category": "pre-rol"
+    },
+    {
+      "_id": 18,
+      "img": "https://i.ibb.co/b1fmKTh/292295-IMG-5163.jpg",
+      "title": "Gelato Punch",
+      "brand_name": "New Moon Cultivation",
+      "rating": "5.0 (15)",
+      "price": "15.00",
+      "quantity": "7 mi",
+      "category": "Flower"
+    },
+    {
+      "_id": 19,
+      "img": "https://i.ibb.co/zxhBrB7/1669418516-1667281830-1655851198-1652279526-1652159118-1651070373-1650999127-1586277873-cookies-gary.jpg",
+      "title": "Cookies - Gary Payton Cookies",
+      "brand_name": "Private Reserve Gardens",
+      "rating": "3.3 (4)",
+      "price": "40.00",
+      "quantity": "6 mi",
+      "category": "Vape Pens"
+    },
+    {
+      "_id": 20,
+      "img": "https://i.ibb.co/chm30D6/1050850-Zenoa-Blockberry-Super-Boof-1.jpg",
+      "title": "Superboof",
+      "brand_name": "PZenoa",
+      "rating": "4.3 (42)",
+      "price": "37.50",
+      "quantity": "2 mi",
+      "category": "Topicals"
+    },
+    {
+      "_id": 21,
+      "img": "https://i.ibb.co/2Zz4ySR/1647000258-banana-cake2-mobile.jpg",
+      "title": "Banana Cake #2 by Smokey Okies",
+      "brand_name": "Galaxy",
+      "rating": "5.0 (7)",
+      "price": "20.00",
+      "quantity": "6 mi",
+      "category": "Flower"
+    },
+    {
+      "_id": 22,
+      "img": "https://i.ibb.co/R9KMPJN/170526-highvoltagerolls-highvoltageroll-9392.jpg",
+      "title": "New Moon Cultivation",
+      "brand_name": "Galaxy",
+      "rating": "5.0 (7)",
+      "price": "15.00",
+      "quantity": "1 mi",
+      "category": "Pre Roll"
+    },
+    {
+      "_id": 23,
+      "img": "https://i.ibb.co/R9KMPJN/170526-highvoltagerolls-highvoltageroll-9392.jpg",
+      "title": "ICE CUBE'S GOOD DAY KUSH MOON ROCK",
+      "brand_name": "Private Reserve Gardens",
+      "rating": "3.3 (4)",
+      "price": "40.00",
+      "quantity": "7 mi",
+      "category": "CBD"
+    },
+    {
+      "_id": 24,
+      "img": "https://i.ibb.co/0cj3Xp3/338517-Zenoa-Heaven-Scent-4-copy.jpg",
+      "title": "Heaven Scent",
+      "brand_name": "Zenoa",
+      "rating": "3.3 (4)",
+      "price": "37.50",
+      "quantity": "2 mi",
+      "category": "Flower"
+    }
+  ]
+}

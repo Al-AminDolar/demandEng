@@ -69,13 +69,13 @@ const Footer = () => {
             <h2 className="text-xl font-medium pb-4">Quick Links</h2>
             <ul className="text-base leading-relaxed font-semibold">
               <li>
-                <NavLink>Home</NavLink>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
                 <NavLink>Services</NavLink>
               </li>
               <li>
-                <NavLink>Shop</NavLink>
+                <NavLink to="/shop">Shop</NavLink>
               </li>
               <li>
                 <NavLink>About</NavLink>

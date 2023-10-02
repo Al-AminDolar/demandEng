@@ -1,22 +1,40 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
 import log from "../images/logo.png";
+
 const Navbar = () => {
   let Links = [
     { name: "Home", link: "/" },
-    { name: "Service", link: "/" },
-    { name: "About", link: "/" },
+    { name: "Service", link: "/service" },
     { name: "Shop", link: "/shop" },
-    { name: "Contact", link: "/" },
+    { name: "About", link: "/about" },
+    { name: "Contact", link: "/contact" },
   ];
-  let [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false);
+
+  const menuRef = useRef();
+
+  useEffect(() => {
+    // Function to handle clicks outside the menu
+    const handleClickOutside = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setOpen(false);
+      }
+    };
+
+    // Attach the event listener
+    window.addEventListener("click", handleClickOutside);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
+
   return (
-    <div className="shadow-md w-full fixed z-10 top-0 left-0">
+    <div ref={menuRef} className="shadow-md w-full fixed z-10 top-0 left-0">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
-        <div
-          className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
-    text-gray-800"
-        >
+        <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800">
           <span className="text-2xl font-[Poppins] cursor-pointer">
             <img className="h-10 inline" src={log} alt="Tailwind Logo" />
           </span>
@@ -31,7 +49,7 @@ const Navbar = () => {
 
         <ul
           className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
-            open ? "top-20 " : "top-[-490px]"
+            open ? "left-52 top-[75px]" : "left-[490px] top-[75px]   "
           }`}
         >
           {Links.map((link) => (

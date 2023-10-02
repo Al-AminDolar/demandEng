@@ -2,56 +2,56 @@
   "popularProducts": [
     {
       "_id": 1,
-      "img": "https://i.ibb.co/2Sr3Nx3/vapepens.png",
-      "title": "Vape Pens",
+      "img": "https://pryescompressors.com/wp-content/uploads/2021/08/Screw-Compressor-new-model-1.jpg",
+      "title": "PRS-25D SCREW AIR COMPRESSOR",
       "searchKey": "vape-pens"
     },
     {
       "_id": 2,
-      "img": "https://i.ibb.co/YtGYKRG/flower.png",
-      "title": "Flower",
+      "img": "https://pryescompressors.com/wp-content/uploads/2021/08/Screw-Compressor-new-model-1.jpg",
+      "title": "PRS-40D SCREW AIR COMPRESSOR",
       "searchKey": "flower"
     },
     {
       "_id": 3,
-      "img": "https://i.ibb.co/3BnR5vy/Concentrates.png",
-      "title": "Concentrates",
+      "img": "https://pryescompressors.com/wp-content/uploads/2021/08/Screw-Compressor-new-model-1.jpg",
+      "title": "PRS-50D SCREW AIR COMPRESSOR",
       "searchKey": "concentrates"
     },
     {
       "_id": 4,
-      "img": "https://i.ibb.co/V9CnTz5/Pre-roll.png",
-      "title": "Pre roll",
+      "img": "https://pryescompressors.com/wp-content/uploads/2021/08/Screw-Compressor-new-model-1.jpg",
+      "title": "PRS-60D SCREW AIR COMPRESSOR",
       "searchKey": "pre-roll"
     },
     {
       "_id": 5,
-      "img": "https://i.ibb.co/6DCyVLL/Cbd.png",
-      "title": "CBD",
+      "img": "https://pryescompressors.com/wp-content/uploads/2021/08/Screw-Compressor-new-model-1.jpg",
+      "title": "PRS-75D SCREW AIR COMPRESSOR",
       "searchKey": "cbd"
     },
     {
       "_id": 6,
-      "img": "https://i.ibb.co/CPMghCH/topicals.png",
-      "title": "Topicals",
+      "img": "https://pryescompressors.com/wp-content/uploads/2021/08/Screw-Compressor-new-model-1.jpg",
+      "title": "PRS-10D SCREW AIR COMPRESSOR",
       "searchKey": "topicals"
     },
     {
       "_id": 7,
-      "img": "https://i.ibb.co/V9CnTz5/Pre-roll.png",
-      "title": "Topicals",
+      "img": "https://pryescompressors.com/wp-content/uploads/2021/08/Screw-Compressor-new-model-1.jpg",
+      "title": "PRS-15D SCREW AIR COMPRESSOR",
       "searchKey": "topicals"
     },
     {
       "_id": 8,
-      "img": "https://i.ibb.co/YtGYKRG/flower.png",
-      "title": "Pre roll",
+      "img": "https://pryescompressors.com/wp-content/uploads/2021/08/Screw-Compressor-new-model-1.jpg",
+      "title": "PRS-20D SCREW AIR COMPRESSOR",
       "searchKey": "pre-roll"
     },
     {
       "_id": 9,
-      "img": "https://i.ibb.co/3BnR5vy/Concentrates.png",
-      "title": "CBD",
+      "img": "https://pryescompressors.com/wp-content/uploads/2021/08/Screw-Compressor-new-model-1.jpg",
+      "title": "PRS-30D SCREW AIR COMPRESSOR",
       "searchKey": "cbd"
     }
   ],

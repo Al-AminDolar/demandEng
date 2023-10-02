@@ -1,5 +1,4 @@
 import { Card } from "antd";
-const { Meta } = Card;
 
 const ShopCard = (product) => {
   console.log(product.product.img);
@@ -8,11 +7,15 @@ const ShopCard = (product) => {
       <Card
         hoverable
         style={{
-          width: 240,
+          width: 400,
         }}
         cover={<img alt="example" src={product.product.img} />}
       >
-        <Meta title={product.product.title} />
+        <div className="flex justify-center">
+          <h1 className=" text-center font-sans text-xl w-[60%] font-medium">
+            {product.product.title}
+          </h1>
+        </div>
       </Card>
     </div>
   );

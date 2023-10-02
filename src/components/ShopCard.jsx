@@ -3,7 +3,7 @@ const { Meta } = Card;
 
 const ShopCard = () => {
   return (
-    <div>
+    <div className="flex justify-center">
       <Card
         hoverable
         style={{

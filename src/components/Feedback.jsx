@@ -7,7 +7,7 @@ const Feedback = () => {
         What People Are Saying
       </h1>
       <div className="container mx-auto  items-center ">
-        <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3  ">
           {/* Feedback One */}
           <div className="border p-8 rounded-md m-8">
             <p className="text-justify font-medium text-white">

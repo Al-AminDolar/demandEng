@@ -1,5 +1,7 @@
 import { Tabs } from "antd";
+import TabPane from "antd/es/tabs/TabPane";
 import { useParams } from "react-router-dom";
+import "../styles/global.css";
 
 const products = [
   {
@@ -69,11 +71,11 @@ const ProductDetails = () => {
       {product ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
           {/* image div */}
-          <div className="imag p-20">
+          <div className="imag p-5">
             <img src={product.img} alt="" />
           </div>
           {/* description div */}
-          <div className="description  p-20">
+          <div className="description p-5 ">
             <h1 className="text-4xl font-bold mb-5 ">{product.title}</h1>
             <hr />
             <p className="mt-5 text-justify">
@@ -111,19 +113,71 @@ const ProductDetails = () => {
         <p>Product not found</p>
       )}
 
-      <div className="extrasection">
-        <Tabs
-          defaultActiveKey="1"
-          centered
-          items={new Array(3).fill(null).map((_, i) => {
-            const id = String(i + 1);
-            return {
-              label: `Tab ${id}`,
-              key: id,
-              children: `Content of Tab Pane ${id}`,
-            };
-          })}
-        />
+      <div className="extrasection p-8 container mx-auto">
+        <Tabs className="" defaultActiveKey="1" centered>
+          <TabPane tab="Description" key="1">
+            <h5 className="my-5 text-lg font-mono font-semibold">Features:</h5>
+            <ul className="font-xl event-li">
+              <li>-PRYES Standard Compressor Screw Air Compressor</li>
+              <li>-Air Cooled Design with Degree</li>
+              <li>-Ambient Continuous Duty Rating</li>
+              <li>-PLC Base Programming</li>
+              <li>-Direct Drive</li>
+              <li>-Air Cooled oil Cooler</li>
+              <li>-Emergency Start Stop</li>
+            </ul>
+            <div className="my-10 ">
+              <p className="text-base font-medium">
+                Buy PRS-40D 40 HP Air Delivery 183.66 CFM Standard Screw Air
+                Compressor D Series online in India at wholesale rates. If you
+                have been looking for PRS-40D 40 HP Air Delivery 183.66 CFM
+                Standard Screw Air Compressor D Series dealers, your search ends
+                here as you can get the best PRS-40D 40 HP Air Delivery 183.66
+                CFM Standard Screw Air Compressor D Series distributors in top
+                cities such as Delhi NCR, Mumbai, Chennai, Bengaluru, Kolkata,
+                Chennai, Pune, Jaipur, Hyderabad and Ahmedabad.
+                <br />
+                <br />
+                You can purchase PRS-40D 40 HP Air Delivery 183.66 CFM Standard
+                Screw Air Compressor D Series of the finest quality and rest
+                assured to get the best in terms of both durability and
+                performance in screw air compressor manufacturers. If you are
+                bothered about the PRS-40D 40 HP Air Delivery 183.66 CFM
+                Standard Screw Air Compressor D Series prices & screw air
+                compressor manufacturers.
+                <br />
+                <br />
+                you can be totally sure to get the best rates as direct brings
+                you genuine PRS-40D 40 HP Air Delivery 183.66 CFM Standard Screw
+                Air Compressor D Series rates and quality assured products only
+                from the best of brands with exclusive brand discounts you won’t
+                find anywhere else. screw air compressor manufacturers Procure
+                PRS-40D 40 HP Air Delivery 183.66 CFM Standard Screw Air
+                Compressor D Series today and avail the best offers on your
+                purchase.
+              </p>
+            </div>
+          </TabPane>
+          <TabPane tab="Additional Information" key="2">
+            <div>
+              <div className="grid grid-cols-2 md:grid-cols-5 gap-20 text-base font-medium mt-3">
+                <p>Weight</p>
+                <p>550 kg</p>
+              </div>
+              <div className="grid grid-cols-2 md:grid-cols-5 gap-20 mt-3 text-base font-medium">
+                <p>Dimensions</p>
+                <p>111.5 x 80 x 125 cm</p>
+              </div>
+              <div className="grid grid-cols-2 md:grid-cols-5 gap-20 mt-3 text-base font-medium">
+                <p>COLOUR</p>
+                <p>YELLOW</p>
+              </div>
+            </div>
+          </TabPane>
+          <TabPane tab="Reviews" key="3">
+            Under constraction
+          </TabPane>
+        </Tabs>
       </div>
     </div>
   );

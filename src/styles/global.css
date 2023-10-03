@@ -71,3 +71,32 @@
   align-items: center;
   gap: 5px;
 }
+
+/* MyTabs.css */
+
+.ant-tabs-nav .ant-tabs-tab {
+  font-size: 16px; /* Adjust the font size as needed */
+  font-weight: 600;
+}
+
+/* Adjust font size for smaller screens */
+@media (max-width: 768px) {
+  .event-li li {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .ant-tabs-nav .ant-tabs-tab {
+    font-size: 14px; /* Adjust the font size for smaller screens */
+  }
+}
+
+@media (max-width: 1024px) {
+  .event-li li {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+/* .event-li li {
+  font-size: 18px;
+  font-weight: 500;
+} */

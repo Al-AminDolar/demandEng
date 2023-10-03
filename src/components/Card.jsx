@@ -12,7 +12,11 @@ const Card = () => {
       </h1>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 p-7">
         <div className="card text-center">
-          <img className="card-image " src={compressor} alt="Air Compressor" />
+          <img
+            className="card-image h-[300px]"
+            src={compressor}
+            alt="Air Compressor"
+          />
           <h1 className="text-xl font-semibold py-3">Air Compressor</h1>
 
           <div className="flex justify-center">
@@ -23,7 +27,11 @@ const Card = () => {
         </div>
 
         <div className="card text-center">
-          <img className="card-image" src={oil} alt="Compressor Oil" />
+          <img
+            className="card-image h-[300px]"
+            src={oil}
+            alt="Compressor Oil"
+          />
           <h1 className="text-xl font-semibold py-3">Compressor Oil</h1>
 
           <div className="flex justify-center">
@@ -34,7 +42,7 @@ const Card = () => {
         </div>
 
         <div className="card text-center ">
-          <img className="card-image" src={spare} alt="Spare Parts" />
+          <img className="card-image h-[300px]" src={spare} alt="Spare Parts" />
           <h1 className="text-xl font-semibold py-3">Spare Parts</h1>
 
           <div className="flex justify-center">

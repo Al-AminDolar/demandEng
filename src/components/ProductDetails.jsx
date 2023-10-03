@@ -1,3 +1,4 @@
+import { Tabs } from "antd";
 import { useParams } from "react-router-dom";
 
 const products = [
@@ -110,7 +111,20 @@ const ProductDetails = () => {
         <p>Product not found</p>
       )}
 
-      <div className="extrasection"></div>
+      <div className="extrasection">
+        <Tabs
+          defaultActiveKey="1"
+          centered
+          items={new Array(3).fill(null).map((_, i) => {
+            const id = String(i + 1);
+            return {
+              label: `Tab ${id}`,
+              key: id,
+              children: `Content of Tab Pane ${id}`,
+            };
+          })}
+        />
+      </div>
     </div>
   );
 };

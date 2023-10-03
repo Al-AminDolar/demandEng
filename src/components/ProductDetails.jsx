@@ -116,7 +116,7 @@ const ProductDetails = () => {
       <div className="extrasection p-8 container mx-auto">
         <Tabs className="" defaultActiveKey="1" centered>
           <TabPane tab="Description" key="1">
-            <h5 className="my-5 text-lg font-mono font-semibold">Features:</h5>
+            <h5 className="my-5 text-xl  font-semibold">Features:</h5>
             <ul className="font-xl event-li">
               <li>-PRYES Standard Compressor Screw Air Compressor</li>
               <li>-Air Cooled Design with Degree</li>

@@ -90,10 +90,10 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1500px) {
   .event-li li {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 700;
   }
 }
 /* .event-li li {

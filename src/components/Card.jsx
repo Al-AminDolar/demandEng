@@ -11,6 +11,7 @@ const Card = () => {
         Our <span className="text-purple-700">Services</span>
       </h1>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 p-7">
+        {/* First card */}
         <div className="card text-center">
           <img
             className="card-image h-[300px]"
@@ -25,7 +26,7 @@ const Card = () => {
             </button>
           </div>
         </div>
-
+        {/* second card */}
         <div className="card text-center">
           <img
             className="card-image h-[300px]"
@@ -40,7 +41,7 @@ const Card = () => {
             </button>
           </div>
         </div>
-
+        {/* Third card */}
         <div className="card text-center ">
           <img className="card-image h-[300px]" src={spare} alt="Spare Parts" />
           <h1 className="text-xl font-semibold py-3">Spare Parts</h1>

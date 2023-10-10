@@ -30,8 +30,12 @@ const About = () => {
             </span>
           </button>
         </div>
-        <div className="right-bottom p-3 flex justify-center ">
-          <img className="rounded-lg max-w-full" src={image} alt="" />
+        <div className="right-bottom p-3 flex justify-center items-center ">
+          <img
+            className="rounded-lg min-w-full  md:h-auto "
+            src={image}
+            alt=""
+          />
         </div>
       </div>
     </div>

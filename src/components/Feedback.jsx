@@ -1,11 +1,18 @@
 import image1 from "../images/feedback1.jpg";
 import image2 from "../images/feedback2.jpg";
 import image3 from "../images/feedback3.jpg";
+import backgroundImage from "../images/map-bg.png";
 
 const Feedback = () => {
+  const containerStyle = {
+    background: `url(${backgroundImage}) no-repeat center center fixed`,
+    backgroundSize: "cover",
+    backgroundColor: "#222222",
+    padding: "10px",
+  };
   return (
-    <div className="bg-[url('../images/map-bg.png')] bg-cover bg-center  bg-[#222222] ">
-      <h1 className="text-white text-xl font-semibold text-center pt-6">
+    <div style={containerStyle}>
+      <h1 className="text-[#48e3ee] text-3xl font-semibold text-center pt-6">
         What People Are Saying
       </h1>
       <div className="container mx-auto  items-center ">

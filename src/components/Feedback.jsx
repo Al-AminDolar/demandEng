@@ -12,13 +12,13 @@ const Feedback = () => {
   };
   return (
     <div style={containerStyle}>
-      <h1 className="text-[#48e3ee] text-3xl font-semibold text-center pt-6">
+      <h1 className="text-[#48e3ee] text-2xl font-semibold text-center pt-6">
         What People Are Saying
       </h1>
       <div className="container mx-auto  items-center ">
         <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3  ">
           {/* Feedback One */}
-          <div className="border p-8 rounded-md m-8">
+          <div className="border border-cyan-400 p-8 rounded-md m-8">
             <p className="text-justify font-medium text-white">
               They are very awesome ,their team management system very well and
               strong. They have enougph experienced in this field. I am very

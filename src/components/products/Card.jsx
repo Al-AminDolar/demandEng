@@ -1,5 +1,5 @@
 import { BsArrowRight } from "react-icons/bs";
-import "/src/styles/global.css";
+import "../../styles/global.css";
 
 const Card = ({ title, imageUrl, onClick }) => {
   return (

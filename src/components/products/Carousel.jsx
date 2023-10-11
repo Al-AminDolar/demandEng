@@ -6,39 +6,27 @@ const Carousel = () => {
   const cards = [
     {
       id: 1,
-      title: "Card 1",
+      title: "Air Compressor",
       description: "Description for Card 1",
       imageUrl: "/src/images/compressor.png",
     },
     {
       id: 2,
-      title: "Card 2",
+      title: "Compressor Oil",
       description: "Description for Card 2",
       imageUrl: "/src/images/oil.png",
     },
     {
       id: 3,
-      title: "Card 3",
+      title: "Compressor Parts",
       description: "Description for Card 3",
       imageUrl: "/src/images/spareParts.jpg",
     },
     {
-      id: 1,
-      title: "Card 1",
+      id: 4,
+      title: "Air Compressor",
       description: "Description for Card 1",
       imageUrl: "/src/images/compressor.png",
-    },
-    {
-      id: 2,
-      title: "Card 2",
-      description: "Description for Card 2",
-      imageUrl: "/src/images/oil.png",
-    },
-    {
-      id: 3,
-      title: "Card 3",
-      description: "Description for Card 3",
-      imageUrl: "/src/images/spareParts.jpg",
     },
   ];
 

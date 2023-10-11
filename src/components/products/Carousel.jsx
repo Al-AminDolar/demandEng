@@ -7,19 +7,19 @@ const Carousel = () => {
       id: 1,
       title: "Card 1",
       description: "Description for Card 1",
-      imageUrl: "path_to_image1.jpg", // Adjust the image path
+      imageUrl: "/src/images/compressor.png", // Adjust the image path
     },
     {
       id: 2,
       title: "Card 2",
       description: "Description for Card 2",
-      imageUrl: "path_to_image2.jpg", // Adjust the image path
+      imageUrl: "/src/images/oil.png", // Adjust the image path
     },
     {
       id: 3,
       title: "Card 3",
       description: "Description for Card 3",
-      imageUrl: "path_to_image3.jpg", // Adjust the image path
+      imageUrl: "/src/images/spareParts.jpg", // Adjust the image path
     },
   ];
 
@@ -31,9 +31,10 @@ const Carousel = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    speed: 2000,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    slidesToShow: 2,
   };
 
   return (

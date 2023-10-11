@@ -6,7 +6,9 @@ const ProductSection = () => {
       <h1 className="text-3xl pt-3  font-medium text-center">
         Our <span className="text-purple-700">Products</span>
       </h1>
-      <Carousel />
+      <div className="container mx-auto flex ">
+        <Carousel />
+      </div>
     </div>
   );
 };

@@ -1,7 +1,7 @@
-import image1 from "../images/feedback1.jpg";
-import image2 from "../images/feedback2.jpg";
-import image3 from "../images/feedback3.jpg";
-import backgroundImage from "../images/map-bg.png";
+import image1 from "../../images/feedback1.jpg";
+import image2 from "../../images/feedback2.jpg";
+import image3 from "../../images/feedback3.jpg";
+import backgroundImage from "../../images/map-bg.png";
 
 const Feedback = () => {
   const containerStyle = {

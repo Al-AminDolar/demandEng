@@ -1,9 +1,9 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import slide2 from "../images/Mains2.jpg";
-import slide3 from "../images/Mains3.jpg";
-import slide1 from "../images/mains1.jpg";
+import slide2 from "../../images/Mains2.jpg";
+import slide3 from "../../images/Mains3.jpg";
+import slide1 from "../../images/mains1.jpg";
 
 const Banner = () => {
   const settings = {

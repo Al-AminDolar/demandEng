@@ -4,11 +4,11 @@ import {
   FaSquareWhatsapp,
 } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
-import "../styles/global.css";
+import "../../styles/global.css";
 
 const Footer = () => {
   return (
-    <div className="bg-[#262626] text-white ">
+    <div className="bg-[#262626] text-white mb-0 pb-0">
       <div className="flex justify-center container mx-auto ">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-5 pb-20 pt-10 px-4">
           <div className="About p-3">

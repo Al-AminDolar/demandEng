@@ -1,5 +1,5 @@
 import { BsArrowRight } from "react-icons/bs";
-import image from "../images/final.jpg";
+import image from "../../images/final.jpg";
 
 const About = () => {
   return (

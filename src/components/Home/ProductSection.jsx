@@ -1,4 +1,4 @@
-import Carousel from "./Carousel";
+import Carousel from "../Products/Carousel";
 
 const ProductSection = () => {
   return (

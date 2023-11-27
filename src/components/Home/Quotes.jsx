@@ -1,6 +1,6 @@
 import { Collapse } from "antd";
 import { BiSolidRightArrowCircle } from "react-icons/bi";
-import "../styles/global.css";
+import "../../styles/global.css";
 
 const Quotes = () => {
   const text = (

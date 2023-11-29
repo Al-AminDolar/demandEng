@@ -1,13 +1,12 @@
 import { BsArrowRight } from "react-icons/bs";
 import image from "../../images/final.jpg";
-
-const About = () => {
+const Abouts = () => {
   return (
     <div className="container mx-auto">
-      <div className="grid grid-cols-1 pb-3 my-1 lg:grid-cols-2  gap-1 ">
+      <div className="grid grid-cols-1 pb-3 my-1 lg:grid-cols-2  gap-1 pt-20">
         <div className="left-top p-4">
-          <h1 className="text-2xl lg:text-5xl font-semibold mb-4">
-            Welcome to <br />
+          <h1 className="text-2xl lg:text-5xl font-semibold mb-4 text-purple-800">
+            About <br />
             <span className="text-[#fe5a0e]">Demand Engineering </span> __
           </h1>
           <p className="text lg:text-xl text-justify pb-4">
@@ -42,4 +41,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Abouts;

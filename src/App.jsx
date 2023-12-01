@@ -6,7 +6,8 @@ import Navbar from "./components/Header/Navbar";
 import Abouts from "./components/Main/Abouts";
 import Home from "./components/Main/Home";
 import ProductDetails from "./components/ProductDetails";
-import Services from "./components/Services";
+
+import Services from "./components/Main/Services/Services";
 import Shop from "./components/Shop";
 
 function App() {

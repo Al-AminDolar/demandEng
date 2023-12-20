@@ -62,14 +62,9 @@ const Carousel = () => {
 
   return (
     <Slider {...settings}>
-      {cards.map((card) => (
-        <Link key={card.id} to={`/details/${card.id}`}>
-          <Card
-            title={card.title}
-            description={card.description}
-            imageUrl={card.imageUrl}
-            onClick={() => handleCardClick(card.id)}
-          />
+      {cards.map((data) => (
+        <Link key={data.id} to={`/details/${data.id}`}>
+          <Card data={data} onClick={() => handleCardClick(data.id)} />
         </Link>
       ))}
     </Slider>

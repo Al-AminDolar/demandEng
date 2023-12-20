@@ -1,19 +1,26 @@
 import { BsArrowRight } from "react-icons/bs";
-import "../../styles/global.css";
 
-const Card = ({ title, imageUrl, onClick }) => {
+const Card = ({ data }) => {
   return (
-    <div className="card text-center m-5 " onClick={onClick}>
-      <div className="card-image h-[300px]">
-        <img src={imageUrl} alt="image" />
-      </div>
+    <div className="  shadow-md shadow-slate-500 overflow-hidden border rounded-xl w-[300px]  flex justify-center items-center m-10  ">
+      <div className=" flex flex-col items-center" onClick={data.onClick}>
+        <div className="h-[250px] w-[350px]  rounded-t-xl">
+          <img
+            src={data.imageUrl}
+            alt="image"
+            className="w-[80%] h-[80%] object-cover"
+          />
+        </div>
 
-      <h1 className="text-xl font-semibold py-3">{title}</h1>
+        <div>
+          <h1 className=" font-semibold py-3">{data.title}</h1>
+        </div>
 
-      <div className="flex justify-center">
-        <button className="btn-green ">
-          Learn More <BsArrowRight className="text-xl" />
-        </button>
+        <div className="mb-5">
+          <button className="btn-green ">
+            Details <BsArrowRight className="text-xl" />
+          </button>
+        </div>
       </div>
     </div>
   );

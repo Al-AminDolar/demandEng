@@ -5,9 +5,9 @@ import log from "../../images/logo.png";
 const Navbar = () => {
   let Links = [
     { name: "Home", link: "/" },
-    { name: "Service", link: "/service" },
+    { name: "Product" },
     { name: "Shop", link: "/shop" },
-    { name: "About", link: "/about" },
+    { name: "About us", link: "/about" },
     { name: "Contact", link: "/contact" },
   ];
   const [open, setOpen] = useState(false);
@@ -54,12 +54,49 @@ const Navbar = () => {
         >
           {Links.map((link) => (
             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
-              <NavLink
-                className="text-gray-800 font-serif font-medium hover:text-purple-800 duration-500"
-                to={link.link}
-              >
-                {link.name}
-              </NavLink>
+              {link.name === "Product" ? (
+                <div className="relative group">
+                  <span
+                    onClick={() => setOpen(open)}
+                    className="text-gray-800 font-serif font-medium hover:text-purple-800  cursor-pointer"
+                  >
+                    {link.name}
+                  </span>
+                  <ul
+                    className={`hidden absolute left-0 top-full bg-white border border-gray-300 rounded-md py-2 px-4 space-y-2 group-hover:block transition-all transform origin-top ${
+                      open ? "opacity-100 scale-y-100" : "opacity-0 scale-y-0"
+                    }`}
+                  >
+                    {/* Add dropdown options here */}
+                    <li>
+                      <NavLink
+                        onClick={() => setOpen(!open)}
+                        to="/category1"
+                        className="text-xs hover:text-purple-800 duration-500"
+                      >
+                        Category 1
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        onClick={() => setOpen(!open)}
+                        to="/category2"
+                        className="text-xs hover:text-purple-800 duration-500"
+                      >
+                        Category 2
+                      </NavLink>
+                    </li>
+                  </ul>
+                </div>
+              ) : (
+                <NavLink
+                  onClick={() => setOpen(!open)}
+                  className="text-gray-800 font-serif font-medium hover:text-purple-800 duration-500"
+                  to={link.link}
+                >
+                  {link.name}
+                </NavLink>
+              )}
             </li>
           ))}
         </ul>

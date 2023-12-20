@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     <div ref={menuRef} className="shadow-md w-full fixed z-10 top-0 left-0">
-      <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
+      <div className="md:flex items-center justify-between bg-indigo-100 py-4 md:px-10 px-7">
         <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800">
           <span className="text-2xl font-[Poppins] cursor-pointer">
             <img className="h-10 inline" src={log} alt="Tailwind Logo" />
@@ -48,24 +48,24 @@ const Navbar = () => {
         </div>
 
         <ul
-          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-indigo-100 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  transition-all duration-100 ease-in ${
             open ? "left-52 top-[75px]" : "left-[490px] top-[75px]   "
           }`}
         >
           {Links.map((link) => (
-            <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
+            <li key={link.name} className="md:ml-8 text-lg md:my-0 my-7">
               {link.name === "Product" ? (
                 <div className="relative group">
-                  <button className="text-gray-800 font-serif font-medium hover:text-purple-800  cursor-pointer">
+                  <button className=" font-medium hover:text-orange-500  cursor-pointer">
                     {link.name}
                   </button>
-                  <ul className="hidden absolute left-0 top-full bg-white border border-gray-300 rounded-md  px-4 space-y-2 group-hover:block transition-all transform origin-top ">
+                  <ul className="hidden absolute left-0 top-full bg-white border border-gray-300 rounded-md  px-4 space-y-2 group-hover:block transition-all transform origin-top  ">
                     {/* Add dropdown options here */}
                     <li>
                       <NavLink
                         onClick={() => setOpen(!open)}
                         to="/category1"
-                        className="text-xs hover:text-purple-800 duration-500"
+                        className="text-sm font-medium hover:text-orange-500 duration-100 "
                       >
                         Rotary Screw Compressor
                       </NavLink>
@@ -74,7 +74,7 @@ const Navbar = () => {
                       <NavLink
                         onClick={() => setOpen(!open)}
                         to="/category2"
-                        className="text-xs hover:text-purple-800 duration-500"
+                        className="text-sm font-medium hover:text-orange-500 duration-100"
                       >
                         Reciprocating Compressor
                       </NavLink>
@@ -83,9 +83,18 @@ const Navbar = () => {
                       <NavLink
                         onClick={() => setOpen(!open)}
                         to="/category2"
-                        className="text-xs hover:text-purple-800 duration-500"
+                        className="text-sm font-medium hover:text-orange-500 duration-100"
                       >
-                        Screw Compressor Fillters
+                        Screw Compressor Filters
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        onClick={() => setOpen(!open)}
+                        to="/category2"
+                        className="text-sm font-medium hover:text-orange-500 duration-100"
+                      >
+                        HVAC
                       </NavLink>
                     </li>
                   </ul>
@@ -93,7 +102,7 @@ const Navbar = () => {
               ) : (
                 <NavLink
                   onClick={() => setOpen(!open)}
-                  className="text-gray-800 font-serif font-medium hover:text-purple-800 duration-500"
+                  className=" font-medium hover:text-orange-500 duration-100"
                   to={link.link}
                 >
                   {link.name}

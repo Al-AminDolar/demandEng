@@ -6,7 +6,7 @@ const About = () => {
     <div className="container mx-auto">
       <div className="grid grid-cols-1 pb-3 my-1 lg:grid-cols-2  gap-1 ">
         <div className="left-top p-4">
-          <h1 className="text-2xl lg:text-5xl font-semibold mb-4">
+          <h1 className="text-2xl lg:text-5xl font-semibold mb-4 text-purple-800">
             Welcome to <br />
             <span className="text-[#fe5a0e]">Demand Engineering </span> __
           </h1>

@@ -5,7 +5,7 @@ import log from "../../images/logo.png";
 const Navbar = () => {
   let Links = [
     { name: "Home", link: "/" },
-    { name: "Product" },
+    { name: "Product", link: "/" },
     { name: "Shop", link: "/shop" },
     { name: "About us", link: "/about" },
     { name: "Contact", link: "/contact" },
@@ -56,17 +56,10 @@ const Navbar = () => {
             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
               {link.name === "Product" ? (
                 <div className="relative group">
-                  <span
-                    onClick={() => setOpen(open)}
-                    className="text-gray-800 font-serif font-medium hover:text-purple-800  cursor-pointer"
-                  >
+                  <button className="text-gray-800 font-serif font-medium hover:text-purple-800  cursor-pointer">
                     {link.name}
-                  </span>
-                  <ul
-                    className={`hidden absolute left-0 top-full bg-white border border-gray-300 rounded-md py-2 px-4 space-y-2 group-hover:block transition-all transform origin-top ${
-                      open ? "opacity-100 scale-y-100" : "opacity-0 scale-y-0"
-                    }`}
-                  >
+                  </button>
+                  <ul className="hidden absolute left-0 top-full bg-white border border-gray-300 rounded-md  px-4 space-y-2 group-hover:block transition-all transform origin-top ">
                     {/* Add dropdown options here */}
                     <li>
                       <NavLink
@@ -74,7 +67,7 @@ const Navbar = () => {
                         to="/category1"
                         className="text-xs hover:text-purple-800 duration-500"
                       >
-                        Category 1
+                        Rotary Screw Compressor
                       </NavLink>
                     </li>
                     <li>
@@ -83,7 +76,16 @@ const Navbar = () => {
                         to="/category2"
                         className="text-xs hover:text-purple-800 duration-500"
                       >
-                        Category 2
+                        Reciprocating Compressor
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        onClick={() => setOpen(!open)}
+                        to="/category2"
+                        className="text-xs hover:text-purple-800 duration-500"
+                      >
+                        Screw Compressor Fillters
                       </NavLink>
                     </li>
                   </ul>

@@ -1,8 +1,7 @@
 import { BsArrowRight } from "react-icons/bs";
-import compressor from "../images/compressor.png";
-import oil from "../images/oil.png";
-import spare from "../images/spareParts.jpg";
-import "../styles/global.css";
+import compressor from "../assets/compressor.png";
+import oil from "../assets/oil.png";
+import spare from "../assets/spareParts.jpg";
 
 const Card = () => {
   return (
@@ -48,7 +47,7 @@ const Card = () => {
 
           <div className="flex justify-center">
             <button className="btn-green ">
-              Learn More <BsArrowRight className="text-xl" />
+              <BsArrowRight className="text-xl" />
             </button>
           </div>
         </div>

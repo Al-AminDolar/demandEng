@@ -8,25 +8,25 @@ const Carousel = () => {
       id: 1,
       title: "Air Compressor",
       description: "Description for Card 1",
-      imageUrl: "/src/images/compressor.png",
+      imageUrl: "https://i.ibb.co/NZk3CtM/compressor.jpg",
     },
     {
       id: 2,
       title: "Compressor Oil",
       description: "Description for Card 2",
-      imageUrl: "/src/images/oil.png",
+      imageUrl: "https://i.ibb.co/0FNJSh3/oil.jpg",
     },
     {
       id: 3,
       title: "Compressor Parts",
       description: "Description for Card 3",
-      imageUrl: "/src/images/spareParts.jpg",
+      imageUrl: "https://i.ibb.co/6wzqrVS/spare-Parts.jpg",
     },
     {
-      id: 4,
-      title: "Air Compressor",
-      description: "Description for Card 1",
-      imageUrl: "/src/images/compressor.png",
+      id: 2,
+      title: "Compressor Oil",
+      description: "Description for Card 2",
+      imageUrl: "https://i.ibb.co/0FNJSh3/oil.jpg",
     },
   ];
 

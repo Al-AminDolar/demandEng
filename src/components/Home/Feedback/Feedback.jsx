@@ -1,8 +1,5 @@
 import Marquee from "react-fast-marquee";
-import image1 from "../../images/feedback1.jpg";
-import image2 from "../../images/feedback2.jpg";
-import image3 from "../../images/feedback3.jpg";
-import backgroundImage from "../../images/map-bg.png";
+import backgroundImage from "../../../images/map-bg.png";
 
 const Feedback = () => {
   const containerStyle = {
@@ -17,7 +14,7 @@ const Feedback = () => {
         What People Are Feedback
       </h1>
       <div className="container mx-auto  items-center ">
-        <Marquee speed={15}>
+        <Marquee speed={30}>
           {/* Feedback One */}
           <div className="border border-cyan-400 p-8 rounded-md m-8 shadow-md shadow-cyan-400 w-96 h-60">
             <p className="text-sm font-medium text-white ">
@@ -27,7 +24,7 @@ const Feedback = () => {
             <div className="flex items-center gap-4">
               <img
                 className="rounded-full my-3 border-2 h-20 w-20"
-                src={image1}
+                src="https://i.ibb.co/DRjftVB/feedback1.jpg"
                 alt=""
               />
               <div>
@@ -48,7 +45,7 @@ const Feedback = () => {
             <div className="flex items-center gap-4">
               <img
                 className="rounded-full my-3 border-2 h-20 w-20"
-                src={image2}
+                src="https://i.ibb.co/DRjftVB/feedback3.jpg"
                 alt=""
               />
               <div>
@@ -71,7 +68,7 @@ const Feedback = () => {
             <div className="flex items-center gap-4">
               <img
                 className="rounded-full my-3 border-2 h-20 w-20"
-                src={image3}
+                src="https://i.ibb.co/DRjftVB/feedback3.jpg"
                 alt=""
               />
               <div>

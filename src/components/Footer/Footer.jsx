@@ -4,7 +4,7 @@ import {
   FaSquareWhatsapp,
 } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
-import bg from "../../assets/footer.png";
+import bg from "../../assets/footer1.png";
 import "../../styles/global.css";
 
 const Footer = () => {

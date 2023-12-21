@@ -48,8 +48,8 @@ const Navbar = () => {
         </div>
 
         <ul
-          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-indigo-100 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  transition-all duration-100 ease-in ${
-            open ? "left-52 top-[75px]" : "left-[490px] top-[75px]   "
+          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-indigo-100 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  transition-all duration-500 ease-in rounded-b-md ${
+            open ? "left-40 top-[72px]" : "left-[490px] top-[75px]   "
           }`}
         >
           {Links.map((link) => (
@@ -59,7 +59,7 @@ const Navbar = () => {
                   <button className=" font-medium hover:text-orange-500  cursor-pointer">
                     {link.name}
                   </button>
-                  <ul className="hidden absolute left-0 top-full bg-white border border-gray-300 rounded-md  px-4 space-y-2 group-hover:block transition-all transform origin-top  ">
+                  <ul className="hidden absolute left-0 top-full bg-indigo-100 border border-gray-300 rounded-md  px-4 space-y-2 group-hover:block transition-all transform origin-top  ">
                     {/* Add dropdown options here */}
                     <li>
                       <NavLink

@@ -1,7 +1,7 @@
 import { BiHappyHeartEyes, BiSupport } from "react-icons/bi";
 import { TbSettingsUp } from "react-icons/tb";
 
-const IdeaSection = () => {
+const ServiceOverview = () => {
   return (
     <div className="container mx-auto mb-10">
       <div className="grid grid-cols-1 md:grid-cols-3 ">
@@ -49,4 +49,4 @@ const IdeaSection = () => {
   );
 };
 
-export default IdeaSection;
+export default ServiceOverview;

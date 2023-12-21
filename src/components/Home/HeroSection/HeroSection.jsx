@@ -1,7 +1,7 @@
 import { FaArrowRight } from "react-icons/fa";
-import image from "../../assets/about.jpg";
+import image from "../../../assets/about.jpg";
 
-const About = () => {
+const HeroSection = () => {
   return (
     <div className="container mx-auto grid grid-cols-1  lg:grid-cols-2   ">
       <div className=" px-14 mt-10 order-2 lg:order-1">
@@ -35,4 +35,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default HeroSection;

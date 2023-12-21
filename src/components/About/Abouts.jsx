@@ -3,8 +3,8 @@ import image from "../../assets/about.jpg";
 const Abouts = () => {
   return (
     <div className=" ">
-      <div className="container mx-auto grid grid-cols-1  pb-3 my-1 lg:grid-cols-2  gap-1 pt-20">
-        <div className=" p-14 order-2 lg:order-1">
+      <div className="container mx-auto grid grid-cols-1  pb-3 my-1 lg:grid-cols-2   pt-20">
+        <div className="mt-5 px-14 md:p-14 order-2 lg:order-1">
           <h1 className="text-2xl lg:text-4xl font-semibold mb-4 text-purple-800">
             About <br />
             <span className="text-[#fe5a0e]">Demand Engineering </span> __
@@ -29,7 +29,7 @@ const Abouts = () => {
             </span>
           </button>
         </div>
-        <div className=" p-14 flex justify-center items-center order-1 lg:order-2">
+        <div className=" mt-5 px-14 md:p-14 flex justify-center items-center order-1 lg:order-2">
           <img
             className="rounded-lg min-w-full  md:h-auto "
             src={image}

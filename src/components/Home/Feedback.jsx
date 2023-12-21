@@ -1,3 +1,4 @@
+import Marquee from "react-fast-marquee";
 import image1 from "../../images/feedback1.jpg";
 import image2 from "../../images/feedback2.jpg";
 import image3 from "../../images/feedback3.jpg";
@@ -16,15 +17,19 @@ const Feedback = () => {
         What People Are Saying
       </h1>
       <div className="container mx-auto  items-center ">
-        <div className="grid grid-cols-1 md:grid-cols-2  ">
+        <Marquee>
           {/* Feedback One */}
-          <div className="border border-cyan-400 p-8 rounded-md m-8 shadow-md shadow-cyan-400">
-            <p className="text-sm font-medium text-white">
-              I purchased a RotaryCompressor, and their delivery was very fast.
-              The people involved were courteous and professional.
+          <div className="border border-cyan-400 p-8 rounded-md m-8 shadow-md shadow-cyan-400 w-96 h-60">
+            <p className="text-sm font-medium text-white ">
+              "I purchased a RotaryCompressor, and their delivery was very fast.
+              The people involved were courteous and professional"
             </p>
             <div className="flex items-center gap-4">
-              <img className="rounded-full my-3 border-2" src={image1} alt="" />
+              <img
+                className="rounded-full my-3 border-2 h-20 w-20"
+                src={image1}
+                alt=""
+              />
               <div>
                 <h4 className="text-white text-lg font-semibold">Md.Al-amin</h4>
                 <span className="text-[#f75511] font-medium">
@@ -34,14 +39,18 @@ const Feedback = () => {
             </div>
           </div>
           {/* Feedback Two */}
-          <div className=" md:block border border-cyan-400 p-8 rounded-md m-8 shadow-md shadow-cyan-400">
+          <div className=" md:block border border-cyan-400 p-8 rounded-md m-8 shadow-md shadow-cyan-400 w-96 h-60">
             <p className="text-sm font-medium text-white">
-              I purchased a Reciprocating Compressor, and their delivery was
+              "I purchased a Reciprocating Compressor, and their delivery was
               very fast. The people involved were courteous and professional.
-              They are giving me a genuine warranty for the product.{" "}
+              They are giving me a genuine warranty for the product"{" "}
             </p>
             <div className="flex items-center gap-4">
-              <img className="rounded-full my-3 border-2" src={image2} alt="" />
+              <img
+                className="rounded-full my-3 border-2 h-20 w-20"
+                src={image2}
+                alt=""
+              />
               <div>
                 <h4 className="text-white text-lg font-semibold">
                   Rofiq Choudhury
@@ -53,14 +62,18 @@ const Feedback = () => {
             </div>
           </div>
           {/* Feedback Three */}
-          <div className="  md:block border border-cyan-400 p-8 rounded-md m-8 shadow-md shadow-cyan-400">
+          <div className="  md:block border border-cyan-400 p-8 rounded-md m-8 shadow-md shadow-cyan-400 w-96 h-60 ">
             <p className="text-sm font-medium text-white">
               "I purchased a Compressor Fillters, and their delivery was very
               fast. The people involved were courteous and professional. They
-              are giving me a genuine warranty for the product."
+              are giving me a genuine warranty for the product"
             </p>
             <div className="flex items-center gap-4">
-              <img className="rounded-full my-3 border-2" src={image3} alt="" />
+              <img
+                className="rounded-full my-3 border-2 h-20 w-20"
+                src={image3}
+                alt=""
+              />
               <div>
                 <h4 className="text-white text-lg font-semibold">
                   Md. Tanvir Hossain
@@ -71,7 +84,7 @@ const Feedback = () => {
               </div>
             </div>
           </div>
-        </div>
+        </Marquee>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ const ProductSection = () => {
         {" "}
         WARRENTABLE PRODUCT
       </p>
-      <div className="pt-5">
+      <div className="">
         <Carousel />
       </div>
     </div>

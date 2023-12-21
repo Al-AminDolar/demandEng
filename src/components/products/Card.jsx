@@ -1,4 +1,4 @@
-import { BsArrowRight } from "react-icons/bs";
+import { MdArrowForward } from "react-icons/md";
 
 const Card = ({ data }) => {
   return (
@@ -18,7 +18,7 @@ const Card = ({ data }) => {
 
         <div className="mb-5">
           <button className="btn-green ">
-            Details <BsArrowRight className="text-xl" />
+            Details <MdArrowForward />
           </button>
         </div>
       </div>

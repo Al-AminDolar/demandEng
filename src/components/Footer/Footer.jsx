@@ -4,21 +4,30 @@ import {
   FaSquareWhatsapp,
 } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
+import bg from "../../assets/footer.png";
 import "../../styles/global.css";
 
 const Footer = () => {
+  const containerStyle = {
+    background: `url(${bg}) no-repeat center center fixed`,
+    backgroundSize: "cover",
+  };
   return (
-    <div className="bg-[#262626] text-white mb-0 pb-0 ">
-      <div className="flex justify-center container mx-auto ">
+    <div style={containerStyle} className="text-white  ">
+      <div className="flex justify-center container mx-auto  ">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-5 pb-20 pt-10 px-4">
           <div className="About p-3">
-            <h1 className="text-xl font-medium pb-4">About Us</h1>
-            <p className="text-base leading-relaxed">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error,
-              nulla! Modi, facere rerum veniam quam explicabo accusamus dolorum
-              quas ratione?
+            <h1 className="text-xl font-bold pb-2 relative">
+              About Us
+              <div className="h-1 w-16 bg-white absolute bottom-0 left-0 "></div>
+            </h1>
+            <p className="text-sm text-justify font-semibold leading-relaxed mt-4 ">
+              Demand Engineering Solution is capable of providing industry
+              leading to our customers through its professional team of
+              engineers. All of our engineers are certified by the professional
+              engineers institutions.
             </p>
-            <span className="flex text-3xl pt-2 gap-2">
+            <span className="flex text-2xl pt-2 gap-2">
               <NavLink>
                 <FaSquareFacebook />
               </NavLink>
@@ -31,8 +40,11 @@ const Footer = () => {
             </span>
           </div>
           <div className="OurServices p-3 ">
-            <h2 className="text-xl font-medium pb-4">Our Services</h2>
-            <ul className="text-base leading-relaxed font-semibold">
+            <h1 className="text-xl font-bold pb-2 relative">
+              Our Products
+              <div className="h-1 w-16 bg-white absolute bottom-0 left-0 "></div>
+            </h1>
+            <ul className="text-sm leading-relaxed font-semibold pt-4">
               <li>
                 <NavLink> - Air Compressor Manufacture</NavLink>{" "}
               </li>
@@ -48,13 +60,25 @@ const Footer = () => {
             </ul>
           </div>
           <div className=" getintouch p-3 ">
-            <h2 className="text-xl font-medium pb-4">Get in Touch</h2>
+            <h1 className="text-xl font-bold pb-2 relative">
+              Get in Touch
+              <div className="h-1 w-16 bg-white absolute bottom-0 left-0 "></div>
+            </h1>
+            <p className="text-base leading-relaxed pt-4">
+              <span className="font-semibold relative pb-1">
+                REGISTERED OFFICE:{" "}
+                <div className="h-[2px] w-32 bg-white absolute bottom-0 left-0 "></div>
+              </span>{" "}
+              <br />
+              House #64,Road #07, Shekertek, Mohammadpur,Dhaka-1207 .
+            </p>
             <p className="text-base leading-relaxed">
-              <span className="font-bold">Address : </span>
-              <span>
-                {" "}
-                House #64,Road #07, Shekertek, Mohammadpur,Dhaka-1207
-              </span>
+              <span className="font-semibold relative pb-1">
+                CORPORATE OFFICE:{" "}
+                <div className="h-[2px] w-32 bg-white absolute bottom-0 left-0 "></div>
+              </span>{" "}
+              <br />
+              House #64,Road #07, Shekertek, Mohammadpur,Dhaka-1207 .
             </p>
             <p className="text-sm leading-relaxed">
               <span className="font-bold">Mobile : </span>
@@ -66,8 +90,11 @@ const Footer = () => {
             </p>
           </div>
           <div className="QuickLinks p-3">
-            <h2 className="text-xl font-medium pb-4">Quick Links</h2>
-            <ul className="text-base leading-relaxed font-semibold">
+            <h1 className="text-xl font-bold pb-2 relative">
+              Quick Link
+              <div className="h-1 w-16 bg-white absolute bottom-0 left-0 "></div>
+            </h1>
+            <ul className="text-sm leading-relaxed font-semibold pt-4">
               <li>
                 <NavLink to="/">Home</NavLink>
               </li>
@@ -88,8 +115,8 @@ const Footer = () => {
         </div>
       </div>
       {/* footer end Part */}
-      <div className="border-t-[1px] bg-slate-200 flex justify-center p-4">
-        <p className="text-slate-600">
+      <div className="border-t-[1px] flex justify-center p-4">
+        <p className="">
           © Copyright Demand Engineering 2021 . All rights reserved.
         </p>
       </div>

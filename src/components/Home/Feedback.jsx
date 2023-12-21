@@ -14,10 +14,10 @@ const Feedback = () => {
   return (
     <div style={containerStyle}>
       <h1 className="text-[#48e3ee] text-2xl font-semibold text-center pt-6">
-        What People Are Saying
+        What People Are Feedback
       </h1>
       <div className="container mx-auto  items-center ">
-        <Marquee>
+        <Marquee speed={15}>
           {/* Feedback One */}
           <div className="border border-cyan-400 p-8 rounded-md m-8 shadow-md shadow-cyan-400 w-96 h-60">
             <p className="text-sm font-medium text-white ">

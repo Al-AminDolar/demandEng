@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="About p-3">
             <h1 className="text-xl font-bold pb-2 relative">
               About Us
-              <div className="h-1 w-16 bg-white absolute bottom-0 left-0 "></div>
+              <div className="h-1 w-16 bg-orange-500 absolute bottom-0 left-0  "></div>
             </h1>
             <p className="text-sm text-justify font-semibold leading-relaxed mt-4 ">
               Demand Engineering Solution is capable of providing industry
@@ -42,7 +42,7 @@ const Footer = () => {
           <div className="OurServices p-3 ">
             <h1 className="text-xl font-bold pb-2 relative">
               Our Products
-              <div className="h-1 w-16 bg-white absolute bottom-0 left-0 "></div>
+              <div className="h-1 w-16 bg-orange-500 absolute bottom-0 left-0 "></div>
             </h1>
             <ul className="text-sm leading-relaxed font-semibold pt-4">
               <li>
@@ -62,20 +62,21 @@ const Footer = () => {
           <div className=" getintouch p-3 ">
             <h1 className="text-xl font-bold pb-2 relative">
               Get in Touch
-              <div className="h-1 w-16 bg-white absolute bottom-0 left-0 "></div>
+              <div className="h-1 w-16 bg-orange-500 absolute bottom-0 left-0 "></div>
             </h1>
-            <p className="text-base leading-relaxed pt-4">
-              <span className="font-semibold relative pb-1">
+
+            <p className="text-sm leading-relaxed pt-4 pb-2 ">
+              <span className="font-semibold text-base relative pb-1">
                 REGISTERED OFFICE:{" "}
-                <div className="h-[2px] w-32 bg-white absolute bottom-0 left-0 "></div>
+                <div className="h-[2px]  w-32 bg-orange-500 absolute bottom-0 left-0 "></div>
               </span>{" "}
               <br />
               House #64,Road #07, Shekertek, Mohammadpur,Dhaka-1207 .
             </p>
-            <p className="text-base leading-relaxed">
-              <span className="font-semibold relative pb-1">
+            <p className="text-sm leading-relaxed pt-2 pb-2">
+              <span className="font-semibold text-base relative pb-1">
                 CORPORATE OFFICE:{" "}
-                <div className="h-[2px] w-32 bg-white absolute bottom-0 left-0 "></div>
+                <div className="h-[2px] w-32 bg-orange-500 absolute bottom-0 left-0 "></div>
               </span>{" "}
               <br />
               House #64,Road #07, Shekertek, Mohammadpur,Dhaka-1207 .
@@ -92,7 +93,7 @@ const Footer = () => {
           <div className="QuickLinks p-3">
             <h1 className="text-xl font-bold pb-2 relative">
               Quick Link
-              <div className="h-1 w-16 bg-white absolute bottom-0 left-0 "></div>
+              <div className="h-1 w-16 bg-orange-500 absolute bottom-0 left-0 "></div>
             </h1>
             <ul className="text-sm leading-relaxed font-semibold pt-4">
               <li>

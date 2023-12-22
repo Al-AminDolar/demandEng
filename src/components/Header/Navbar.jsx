@@ -64,10 +64,10 @@ const Navbar = () => {
                     <li>
                       <NavLink
                         onClick={() => setOpen(!open)}
-                        to="/category1"
+                        to="/ScrewAirCompressor"
                         className="text-sm font-medium hover:text-orange-500 duration-100 "
                       >
-                        Rotary Screw Compressor
+                        RotaryScrew_Compressor
                       </NavLink>
                     </li>
                     <li>
@@ -76,7 +76,7 @@ const Navbar = () => {
                         to="/category2"
                         className="text-sm font-medium hover:text-orange-500 duration-100"
                       >
-                        Reciprocating Compressor
+                        Reciprocating_Compressor
                       </NavLink>
                     </li>
                     <li>
@@ -94,7 +94,7 @@ const Navbar = () => {
                         to="/category2"
                         className="text-sm font-medium hover:text-orange-500 duration-100"
                       >
-                        HVAC
+                        Electrical_Substation
                       </NavLink>
                     </li>
                   </ul>

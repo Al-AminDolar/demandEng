@@ -7,6 +7,7 @@ import Navbar from "./components/Header/Navbar";
 import Home from "./components/Home/Home";
 import ProductDetails from "./components/ProductDetails";
 import Shop from "./components/Shop";
+import ScrewAirCompressor from "./pages/ScrewAirCompressor";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/shop/:productId" element={<ProductDetails />} />
         <Route path="/about" element={<Abouts />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/ScrewAirCompressor" element={<ScrewAirCompressor />} />
       </Routes>
 
       <Footer />

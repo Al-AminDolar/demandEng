@@ -96,25 +96,37 @@ const ScrewAirCompressor = () => {
       <div className="hidden md:flex md:gap-10 md:justify-center  mb-10 mt-10">
         <div>
           {" "}
-          <NavLink className="px-2 py-2 text-center text-xs md:px-5 md:py-2 bg-orange-500 text-white font-medium rounded-sm">
+          <NavLink
+            to="/ElectricalItem"
+            className="px-2 py-2 text-center text-xs md:px-5 md:py-2 bg-orange-500 text-white font-medium rounded-sm"
+          >
             Electrical Item
           </NavLink>
         </div>
         <div>
           {" "}
-          <NavLink className="px-1 py-2 text-xs md:px-5 md:py-2 bg-orange-500 text-white font-medium rounded-sm">
+          <NavLink
+            to="/ScrewCompressorFilter"
+            className="px-1 py-2 text-xs md:px-5 md:py-2 bg-orange-500 text-white font-medium rounded-sm"
+          >
             Screw Compressor Filter
           </NavLink>
         </div>
 
         <div>
-          <NavLink className="px-1 py-2 text-xs md:px-5 md:py-2 bg-orange-500 text-white font-medium rounded-sm">
+          <NavLink
+            to="/ReciprocatingCompressor"
+            className="px-1 py-2 text-xs md:px-5 md:py-2 bg-orange-500 text-white font-medium rounded-sm"
+          >
             Reciprocating Compressor
           </NavLink>
         </div>
         <div>
           {" "}
-          <NavLink className="px-1 py-2 text-xs md:px-5 md:py-2 bg-orange-500 text-white font-medium rounded-sm">
+          <NavLink
+            to="/ScrewAirCompressor"
+            className="px-1 py-2 text-xs md:px-5 md:py-2 bg-orange-500 text-white font-medium rounded-sm"
+          >
             Screw Air Compressor
           </NavLink>
         </div>
@@ -126,7 +138,7 @@ const ScrewAirCompressor = () => {
             <FaExternalLinkSquareAlt />
           </div>{" "}
           <div>
-            <NavLink>Electrical Item</NavLink>
+            <NavLink to="/ElectricalItem">Electrical Item</NavLink>
           </div>
         </div>
         <div className="flex items-center gap-3 text-sm mt-2">
@@ -134,7 +146,9 @@ const ScrewAirCompressor = () => {
             <FaExternalLinkSquareAlt />
           </div>{" "}
           <div>
-            <NavLink>Screw Compressor Filter</NavLink>
+            <NavLink to="/ScrewCompressorFilter">
+              Screw Compressor Filter
+            </NavLink>
           </div>
         </div>
         <div className="flex items-center gap-3 text-sm mt-2">
@@ -142,7 +156,9 @@ const ScrewAirCompressor = () => {
             <FaExternalLinkSquareAlt />
           </div>{" "}
           <div>
-            <NavLink>Reciprocating Compressor</NavLink>
+            <NavLink to="/ReciprocatingCompressor">
+              Reciprocating Compressor
+            </NavLink>
           </div>
         </div>
         <div className="flex items-center gap-3 text-sm mt-2">
@@ -150,7 +166,7 @@ const ScrewAirCompressor = () => {
             <FaExternalLinkSquareAlt />
           </div>{" "}
           <div>
-            <NavLink>Screw Air Compressor</NavLink>
+            <NavLink to="/ScrewAirCompressor">Screw Air Compressor</NavLink>
           </div>
         </div>
       </div>

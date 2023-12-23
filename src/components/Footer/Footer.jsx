@@ -71,7 +71,7 @@ const Footer = () => {
                 <div className="h-[2px]  w-32 bg-orange-500 absolute bottom-0 left-0 "></div>
               </span>{" "}
               <br />
-              House #64,Road #07, Shekertek, Mohammadpur,Dhaka-1207 .
+              80,Rupayan tower,kakrail,dhaka-1000
             </p>
             <p className="text-sm leading-relaxed pt-2 pb-2">
               <span className="font-semibold text-base relative pb-1">
@@ -99,17 +99,15 @@ const Footer = () => {
               <li>
                 <NavLink to="/">Home</NavLink>
               </li>
-              <li>
-                <NavLink>Services</NavLink>
-              </li>
+
               <li>
                 <NavLink to="/shop">Shop</NavLink>
               </li>
               <li>
-                <NavLink>About</NavLink>
+                <NavLink to="/about">About</NavLink>
               </li>
               <li>
-                <NavLink>Contacts</NavLink>
+                <NavLink to="contact">Contacts</NavLink>
               </li>
             </ul>
           </div>

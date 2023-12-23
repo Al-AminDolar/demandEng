@@ -82,7 +82,7 @@ const Navbar = () => {
                     <li>
                       <NavLink
                         onClick={() => setOpen(!open)}
-                        to="/category2"
+                        to="/ScrewCompressorFilter"
                         className="text-sm font-medium hover:text-orange-500 duration-100"
                       >
                         Screw Compressor Filters
@@ -91,10 +91,10 @@ const Navbar = () => {
                     <li>
                       <NavLink
                         onClick={() => setOpen(!open)}
-                        to="/category2"
+                        to="/ElectricalItem"
                         className="text-sm font-medium hover:text-orange-500 duration-100"
                       >
-                        Electrical_Substation
+                        Electrical Item
                       </NavLink>
                     </li>
                   </ul>

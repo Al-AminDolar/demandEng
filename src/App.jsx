@@ -5,10 +5,12 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Header/Navbar";
 import Home from "./components/Home/Home";
-import ProductDetails from "./components/ProductDetails";
-import Shop from "./components/Shop";
+import ElectricalItem from "./pages/ElectricalItem";
+import ProductDetails from "./pages/ProductDetails";
 import ReciprocatingCompressor from "./pages/ReciprocatingCompressor";
 import ScrewAirCompressor from "./pages/ScrewAirCompressor";
+import ScrewCompressorFilter from "./pages/ScrewCompressorFilter";
+import Shop from "./pages/Shop";
 
 function App() {
   return (
@@ -21,6 +23,11 @@ function App() {
         <Route path="/about" element={<Abouts />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/ScrewAirCompressor" element={<ScrewAirCompressor />} />
+        <Route path="/ElectricalItem" element={<ElectricalItem />} />
+        <Route
+          path="/ScrewCompressorFilter"
+          element={<ScrewCompressorFilter />}
+        />
         <Route
           path="/ReciprocatingCompressor"
           element={<ReciprocatingCompressor />}

@@ -73,10 +73,10 @@ const Navbar = () => {
                     <li>
                       <NavLink
                         onClick={() => setOpen(!open)}
-                        to="/category2"
+                        to="/ReciprocatingCompressor"
                         className="text-sm font-medium hover:text-orange-500 duration-100"
                       >
-                        Reciprocating_Compressor
+                        Reciprocating Compressor
                       </NavLink>
                     </li>
                     <li>

@@ -113,8 +113,8 @@ const ScrewCompressorFilter = () => {
 
       <section className="bg-[#f1f5f9] p-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="grid grid-cols-1 md:grid-cols-2">
-            <div className=" flex justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center">
+            <div className=" flex justify-center ">
               <img
                 className="h-[150px] md:h-[200px]"
                 src="https://i.ibb.co/rm9Xt1X/Air-Filters.png"
@@ -134,8 +134,9 @@ const ScrewCompressorFilter = () => {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2">
-            <div className=" flex justify-center">
+
+          <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center">
+            <div className="flex justify-center items-center">
               <img
                 className="h-[150px] md:h-[200px] "
                 src="https://i.ibb.co/VTnNbn1/oil-filters-removebg-preview.png"
@@ -151,6 +152,32 @@ const ScrewCompressorFilter = () => {
               <p className="text-justify text-sm md:text-base mt-2">
                 An oil filter is a filter designed to remove contaminants from
                 enginr oil,transmission oil and lubricating oil
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="p-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-0 items-center justify-center">
+          <div className="flex justify-center items-center">
+            <img
+              src="https://i.ibb.co/f4hYksb/FINAL-FULL-20.png"
+              alt=""
+              className="h-[180px] md:h-[300px] "
+            />
+          </div>
+          <div className="flex justify-center items-center">
+            <div>
+              <h4 className="font-semibold">
+                Oil Separator:
+                <div className="h-[2px] w-[100px] bg-orange-500 "></div>
+              </h4>
+              <p className="text-justify text-sm md:text-base mt-2 md:w-[70%]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                eaque nihil porro nesciunt, officiis incidunt minima similique
+                eligendi explicabo, ut qui. Corporis, autem? Ut aliquam
+                excepturi deserunt eaque sequi sit.
               </p>
             </div>
           </div>

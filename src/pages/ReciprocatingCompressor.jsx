@@ -31,19 +31,38 @@ const ReciprocatingCompressor = () => {
               </p>
             </div>
           </div>
-          <p className="text-justify text-sm md:text-base">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
-            nostrum assumenda, enim dolorem esse exercitationem optio sequi
-            voluptatibus porro consequuntur sed. Molestias eum doloremque
-            doloribus, cumque itaque consequuntur amet. Iure odio minus officiis
-            nisi consequatur dolore veritatis, quibusdam aliquid? Error incidunt
-            recusandae beatae, officiis natus commodi in cum explicabo deserunt,
-            nulla nisi quae soluta. Temporibus distinctio aliquid laborum magnam
-            quasi assumenda incidunt porro veniam eveniet illum molestias, quia
-            eaque corrupti, blanditiis cupiditate, sint ratione possimus
-            voluptates debitis iure hic perspiciatis in? Accusamus voluptatibus
-            enim laudantium aperiam exercitationem? Eum nihil nam debitis sequi
-            asperiores nesciunt similique quae cumque. Eos, nisi laboriosam!
+          <p className="text-justify  md:text-sm space-y-2">
+            <p>
+              {" "}
+              Welcome to Demand Engineering, your trusted source for
+              high-performance Reciprocating Compressors. Explore our two
+              exceptional types: Oil Floated Reciprocating and Oil-Free
+              Reciprocating.
+            </p>
+            <p>
+              {" "}
+              Our Oil Floated Reciprocating Compressors, with a capacity range
+              of 5 HP to 40 HP, provide reliable and robust performance.
+              Designed for durability and efficiency, these compressors are
+              ideal for a variety of applications.
+            </p>
+            <p>
+              {" "}
+              Experience a new level of air purity with our Oil-Free
+              Reciprocating Compressors, also available in a capacity range of 5
+              HP to 40 HP. Perfect for environments where contamination is not
+              an option, these compressors set the standard for reliability and
+              cleanliness.
+            </p>
+
+            <p>
+              {" "}
+              Demand Engineering is committed to delivering innovative and
+              efficient compressed air solutions. Choose our Reciprocating
+              Compressors to benefit from top-notch technology and customized
+              performance. Contact us today and elevate your operations with the
+              reliability and efficiency of Demand Engineering compressors.
+            </p>
           </p>
           <div>
             <h1 className="text-xl font-bold text-orange-500">

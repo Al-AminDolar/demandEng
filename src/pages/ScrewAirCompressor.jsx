@@ -31,19 +31,39 @@ const ScrewAirCompressor = () => {
               </p>
             </div>
           </div>
-          <p className="text-justify text-sm md:text-base">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
-            nostrum assumenda, enim dolorem esse exercitationem optio sequi
-            voluptatibus porro consequuntur sed. Molestias eum doloremque
-            doloribus, cumque itaque consequuntur amet. Iure odio minus officiis
-            nisi consequatur dolore veritatis, quibusdam aliquid? Error incidunt
-            recusandae beatae, officiis natus commodi in cum explicabo deserunt,
-            nulla nisi quae soluta. Temporibus distinctio aliquid laborum magnam
-            quasi assumenda incidunt porro veniam eveniet illum molestias, quia
-            eaque corrupti, blanditiis cupiditate, sint ratione possimus
-            voluptates debitis iure hic perspiciatis in? Accusamus voluptatibus
-            enim laudantium aperiam exercitationem? Eum nihil nam debitis sequi
-            asperiores nesciunt similique quae cumque. Eos, nisi laboriosam!
+          <p className="text-justify text-sm space-y-2">
+            <p>
+              {" "}
+              Welcome to Demand Engineering, your premier destination for
+              advanced compressed air solutions. Explore our Rotary Screw
+              Compressors, featuring two exceptional types: Oil Floated Rotary
+              Screw and Oil-Free Rotary Screw.
+            </p>
+
+            <p>
+              {" "}
+              Our Oil Floated Rotary Screw Compressors offer reliable
+              performance in a capacity range of 30 CFM to 2000 CFM. Built with
+              precision engineering, they ensure durability and efficiency for
+              various industrial applications.
+            </p>
+
+            <p>
+              For industries where air purity is paramount, our Oil-Free Rotary
+              Screw Compressors deliver excellence with a capacity range of 170
+              CFM to 2500 CFM. Setting new standards for cleanliness and
+              reliability, these compressors cater to contamination-sensitive
+              environments.
+            </p>
+
+            <p>
+              At Demand Engineering, we pride ourselves on innovation,
+              efficiency, and customer satisfaction. Benefit from cutting-edge
+              technology, optimal performance, and tailored solutions to meet
+              your specific needs. Our commitment to quality and environmental
+              responsibility ensures that our compressors not only meet industry
+              standards but exceed expectations.
+            </p>
           </p>
           <div>
             <h1 className="text-xl font-bold text-orange-500">

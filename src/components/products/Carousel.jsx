@@ -6,34 +6,61 @@ const Carousel = () => {
   const cards = [
     {
       id: 1,
-      title: "Air Compressor",
+      title: "Rotary Screw Compressor",
       description: "Description for Card 1",
       imageUrl: "https://i.ibb.co/NZk3CtM/compressor.jpg",
+      link: "/ScrewAirCompressor",
     },
     {
       id: 2,
-      title: "Compressor Oil",
+      title: "Reciprocating Compressor",
       description: "Description for Card 2",
-      imageUrl: "https://i.ibb.co/0FNJSh3/oil.jpg",
+      imageUrl: "https://i.ibb.co/JCbf0qc/com.png",
+      link: "/ReciprocatingCompressor",
     },
     {
       id: 3,
       title: "Compressor Parts",
       description: "Description for Card 3",
       imageUrl: "https://i.ibb.co/6wzqrVS/spare-Parts.jpg",
+      link: "/ScrewCompressorFilter",
+    },
+    {
+      id: 4,
+      title: "Electrical Substation",
+      description: "Description for Card 3",
+      imageUrl: "https://i.ibb.co/M9R9GMV/FINAL-FULL-28.png",
+      link: "/ElectricalItem",
+    },
+    {
+      id: 1,
+      title: "Rotary Screw Compressor",
+      description: "Description for Card 1",
+      imageUrl: "https://i.ibb.co/NZk3CtM/compressor.jpg",
+      link: "/ScrewAirCompressor",
     },
     {
       id: 2,
-      title: "Compressor Oil",
+      title: "Reciprocating Compressor",
       description: "Description for Card 2",
-      imageUrl: "https://i.ibb.co/0FNJSh3/oil.jpg",
+      imageUrl: "https://i.ibb.co/JCbf0qc/com.png",
+      link: "/ReciprocatingCompressor",
+    },
+    {
+      id: 3,
+      title: "Compressor Parts",
+      description: "Description for Card 3",
+      imageUrl: "https://i.ibb.co/6wzqrVS/spare-Parts.jpg",
+      link: "/ScrewCompressorFilter",
+    },
+    {
+      id: 4,
+      title: "Electrical Substation",
+      description: "Description for Card 3",
+      imageUrl: "https://i.ibb.co/M9R9GMV/FINAL-FULL-28.png",
+      link: "/ElectricalItem",
     },
   ];
-
-  const handleCardClick = (cardId) => {
-    // Redirect to details page for the clicked card
-    console.log(`Redirect to details page for card with id ${cardId}`);
-  };
 
   const settings = {
     dots: true,
@@ -63,8 +90,8 @@ const Carousel = () => {
   return (
     <Slider {...settings}>
       {cards.map((data) => (
-        <Link key={data.id} to={`/details/${data.id}`}>
-          <Card data={data} onClick={() => handleCardClick(data.id)} />
+        <Link key={data.id} to={data.link}>
+          <Card key={data.id} data={data} />
         </Link>
       ))}
     </Slider>
@@ -72,3 +99,13 @@ const Carousel = () => {
 };
 
 export default Carousel;
+
+// "OLD"
+
+// <Slider {...settings}>
+// {cards.map((data) => (
+//   <Link key={data.id} to={`/details/${data.id}`}>
+//     <Card data={data} onClick={() => handleCardClick(data.id)} />
+//   </Link>
+// ))}
+// </Slider>

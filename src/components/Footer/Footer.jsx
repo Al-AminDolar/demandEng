@@ -21,7 +21,7 @@ const Footer = () => {
               About Us
               <div className="h-1 w-16 bg-orange-500 absolute bottom-0 left-0  "></div>
             </h1>
-            <p className="text-sm text-justify font-semibold leading-relaxed mt-4 ">
+            <p className="text-sm text-justify  leading-relaxed mt-4 ">
               Demand Engineering Solution is capable of providing industry
               leading to our customers through its professional team of
               engineers. All of our engineers are certified by the professional
@@ -44,7 +44,7 @@ const Footer = () => {
               Our Products
               <div className="h-1 w-16 bg-orange-500 absolute bottom-0 left-0 "></div>
             </h1>
-            <ul className="text-sm leading-relaxed font-semibold pt-4">
+            <ul className="text-sm leading-relaxed pt-4">
               <li>
                 <NavLink> - Air Compressor Manufacture</NavLink>{" "}
               </li>
@@ -66,7 +66,7 @@ const Footer = () => {
             </h1>
 
             <p className="text-sm leading-relaxed pt-4 pb-2 ">
-              <span className="font-semibold text-base relative pb-1">
+              <span className=" text-base relative pb-1">
                 REGISTERED OFFICE:{" "}
                 <div className="h-[2px]  w-32 bg-orange-500 absolute bottom-0 left-0 "></div>
               </span>{" "}
@@ -74,7 +74,7 @@ const Footer = () => {
               80,Rupayan tower,kakrail,dhaka-1000
             </p>
             <p className="text-sm leading-relaxed pt-2 pb-2">
-              <span className="font-semibold text-base relative pb-1">
+              <span className=" text-base relative pb-1">
                 CORPORATE OFFICE:{" "}
                 <div className="h-[2px] w-32 bg-orange-500 absolute bottom-0 left-0 "></div>
               </span>{" "}
@@ -82,11 +82,11 @@ const Footer = () => {
               House #64,Road #07, Shekertek, Mohammadpur,Dhaka-1207 .
             </p>
             <p className="text-sm leading-relaxed">
-              <span className="font-bold">Mobile : </span>
+              <span className="">Mobile : </span>
               <span> +880 01325-435437</span>
             </p>
             <p className="text-sm leading-relaxed ">
-              <span className="font-bold">Email : </span>
+              <span className="">Email : </span>
               <span>munna@demandeng.com</span>
             </p>
           </div>
@@ -95,7 +95,7 @@ const Footer = () => {
               Quick Link
               <div className="h-1 w-16 bg-orange-500 absolute bottom-0 left-0 "></div>
             </h1>
-            <ul className="text-sm leading-relaxed font-semibold pt-4">
+            <ul className="text-sm leading-relaxed  pt-4">
               <li>
                 <NavLink to="/">Home</NavLink>
               </li>

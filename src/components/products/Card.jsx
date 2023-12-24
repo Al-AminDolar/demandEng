@@ -3,7 +3,7 @@ import { MdArrowForward } from "react-icons/md";
 const Card = ({ data }) => {
   return (
     <div className="  shadow-md shadow-slate-500 overflow-hidden border rounded-xl w-[300px]  flex justify-center items-center m-10  ">
-      <div className=" flex flex-col items-center" onClick={data.onClick}>
+      <div className=" flex flex-col items-center">
         <div className="h-[250px] w-[350px]  rounded-t-xl">
           <img
             src={data.imageUrl}
@@ -27,3 +27,5 @@ const Card = ({ data }) => {
 };
 
 export default Card;
+
+// onClick={data.onClick}

@@ -3,7 +3,7 @@ import {
   FaSquareFacebook,
   FaSquareWhatsapp,
 } from "react-icons/fa6";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import bg from "../../assets/footer1.png";
 import "../../styles/global.css";
 
@@ -114,9 +114,13 @@ const Footer = () => {
         </div>
       </div>
       {/* footer end Part */}
-      <div className="border-t-[1px] flex justify-center p-4">
-        <p className="">
+      <div className="border-t-[1px] text-center p-4">
+        <p className="text-xs md:text-sm">
           © Copyright Demand Engineering 2021 . All rights reserved.
+        </p>
+        <p className="text-xs md:text-sm pt-1">
+          Developed by{" "}
+          <Link className="text-orange-500">Eng. Al-Amin Dolar</Link>
         </p>
       </div>
     </div>

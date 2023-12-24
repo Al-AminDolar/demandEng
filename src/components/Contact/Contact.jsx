@@ -2,7 +2,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { MdEmail, MdOutlineSupportAgent } from "react-icons/md";
 const Contact = () => {
   return (
-    <div className=" mb-20  mt-24 ">
+    <div className="container mx-auto mb-20  mt-24 ">
       <h1 className="text-2xl lg:text-4xl  font-semibold  text-purple-800 text-center">
         Contact
         <span className="text-[#fe5a0e]"> Us </span>
@@ -13,7 +13,7 @@ const Contact = () => {
           <p className="text-gray-500 py-3">
             If You want to get more info,ping us now.
           </p>
-          <form action="#">
+          <form>
             <div className="flex gap-10 mt-5">
               <div>
                 {" "}
@@ -26,7 +26,7 @@ const Contact = () => {
                 <input
                   placeholder="Your Name"
                   type="text"
-                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-sky-200 focus:shadow-outline"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-sky-500 focus:shadow-outline"
                 />
               </div>
               <div>
@@ -40,14 +40,14 @@ const Contact = () => {
                 <input
                   placeholder="Your Email"
                   type="text"
-                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-sky-200 focus:shadow-outline"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-sky-500 focus:shadow-outline"
                 />
               </div>
             </div>
             <div>
               <textarea
                 placeholder="Your message"
-                className="shadow appearance-none border rounded w-full mt-5 py-2 px-3 text-gray-700 leading-tight focus:outline-sky-200 focus:shadow-outline"
+                className="shadow appearance-none border rounded w-full mt-5 py-2 px-3 text-gray-700 leading-tight focus:outline-sky-500 focus:shadow-outline"
                 name=""
                 id=""
                 cols="30"

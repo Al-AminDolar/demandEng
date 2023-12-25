@@ -3,7 +3,7 @@ import "./App.css";
 import Abouts from "./components/About/Abouts";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import Navbar from "./components/Header/Navbar";
+import Nav from "./components/Header/Nav";
 import Home from "./components/Home/Home";
 import ElectricalItem from "./pages/ElectricalItem";
 import ProductDetails from "./pages/ProductDetails";
@@ -15,7 +15,7 @@ import Shop from "./pages/Shop";
 function App() {
   return (
     <div>
-      <Navbar />
+      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />

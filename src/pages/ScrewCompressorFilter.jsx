@@ -159,7 +159,7 @@ const ScrewCompressorFilter = () => {
         </div>
       </section>
 
-      <section className="">
+      <section className="p-5">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-0 items-center justify-center">
           <div className="flex justify-center items-center">
             <img

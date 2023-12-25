@@ -25,10 +25,10 @@ const Mainslider = () => {
   ];
 
   return (
-    <div className="mx-auto max-w-screen-3xl mt-20 ">
+    <div className="mx-auto max-w-screen-3xl mt-20">
       <Slider {...settings}>
         {slides.map((slide, index) => (
-          <div key={index} className="w-full relative">
+          <div key={index} className="w-full relative ">
             <img
               src={slide.image}
               alt={`Slide ${index + 1}`}

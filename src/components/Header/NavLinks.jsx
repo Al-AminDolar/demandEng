@@ -11,14 +11,14 @@ const NavLinks = ({ onClick }) => {
         <div key={link.name}>
           <div className="px-3 text-left md:cursor-pointer group">
             <h1
-              className="py-7 flex justify-between items-center md:pr-0 pr-5 group"
+              className="py-2 flex justify-between items-center md:pr-0 pr-5 group"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
               }}
             >
               {link.name}
-              <span className="text-xl md:hidden inline">
+              <span className="text-sm mr-16 pt-1 md:hidden inline">
                 <ion-icon
                   name={`${
                     heading === link.name ? "chevron-up" : "chevron-down"
@@ -80,11 +80,11 @@ const NavLinks = ({ onClick }) => {
                         ? setSubHeading(slinks.Head)
                         : setSubHeading("")
                     }
-                    className="py-4 pl-7 border font-semibold  flex justify-between items-center md:pr-0 pr-10 duration-100"
+                    className="py-2 text-xs pl-4 border font-semibold  flex justify-between items-center md:pr-0 pr-10 duration-100"
                   >
                     {slinks.Head}
 
-                    <span className="text-xl md:mt-1 md:ml-2 inline">
+                    <span className="text-sm md:mt-1 md:ml-2 inline">
                       <ion-icon
                         name={`${
                           subHeading === slinks.Head
@@ -95,12 +95,15 @@ const NavLinks = ({ onClick }) => {
                     </span>
                   </h1>
                   <div
-                    className={`border divide-y ${
+                    className={`border  divide-y  ${
                       subHeading === slinks.Head ? "md:hidden" : "hidden"
                     }`}
                   >
                     {slinks.sublink.map((slink) => (
-                      <li key={slink.name} className="py-3 pl-14">
+                      <li
+                        key={slink.name}
+                        className="py-3 pl-2 text-xs pr-5 bg-indigo-100"
+                      >
                         <Link onClick={onClick} to={slink.link}>
                           {slink.name}
                         </Link>

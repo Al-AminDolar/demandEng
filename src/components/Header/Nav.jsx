@@ -43,25 +43,25 @@ const Navbar = () => {
         {/* Mobile nav */}
         <ul
           className={`
-        md:hidden bg-indigo-200 fixed w-full top-[76px] overflow-y-scroll bottom-0  pl-4
-        duration-500 ${open ? "left-0" : "left-[100%]"}
+        md:hidden bg-indigo-200 fixed w-[65%] top-[76px] overflow-y-scroll bottom-0  pl-4 
+        duration-500 ${open ? "left-36" : "left-[100%]"}
         `}
         >
-          <div className=" ">
+          <div className=" text-sm ">
             <li className="">
               <Link
                 to="/"
-                className="py-7 px-3 inline-block"
+                className="py-2 mt-8 px-3 inline-block"
                 onClick={closeMobileNav}
               >
                 Home
               </Link>
             </li>
-            <NavLinks onClick={closeMobileNav} />
+            <NavLinks className="" onClick={closeMobileNav} />
             <li>
               <Link
                 to="/shop"
-                className="py-7 px-3 inline-block"
+                className="py-2 px-3 inline-block"
                 onClick={closeMobileNav}
               >
                 Shop
@@ -70,7 +70,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/about"
-                className="py-7 px-3 inline-block"
+                className="py-2 px-3 inline-block"
                 onClick={closeMobileNav}
               >
                 About Us
@@ -79,7 +79,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/contact"
-                className="py-7 px-3 inline-block"
+                className="py-2 px-3 inline-block"
                 onClick={closeMobileNav}
               >
                 Contact
